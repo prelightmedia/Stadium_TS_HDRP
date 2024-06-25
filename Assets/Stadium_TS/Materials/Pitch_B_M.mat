@@ -24,7 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pitch_B_M
-  m_Shader: {fileID: -6465566751694194690, guid: c8ec31001e3ac4c449510ffb6d343c5b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 800e4cefe42bb0c49922251c64f22d21, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -93,6 +93,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassNormal:
+        m_Texture: {fileID: 2800000, guid: 9849e9d0ea15ae145981733f53f5d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Diffuse_2:
+        m_Texture: {fileID: 2800000, guid: 2ed6ad7d310744f49a445ee110400bc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Normal_1:
+        m_Texture: {fileID: 2800000, guid: 9849e9d0ea15ae145981733f53f5d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Normal_2:
         m_Texture: {fileID: 2800000, guid: 9849e9d0ea15ae145981733f53f5d083, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -189,7 +201,7 @@ Material:
     - _AlphaRemapMax: 1
     - _AlphaRemapMin: 0
     - _AlphaSrcBlend: 1
-    - _Angle_Offset: 0.1
+    - _Angle_Offset: 0
     - _Anisotropy: 0
     - _BladeBendCurve: 2
     - _BladeBendDelta: 0.2
@@ -227,10 +239,10 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _Float: 0
-    - _Fur_Contrast: 1
-    - _Fur_Density: 1
+    - _Fur_Contrast: 0
+    - _Fur_Density: 0
     - _Fur_Direction: 0
-    - _Fur_Size: 1
+    - _Fur_Size: 0
     - _GrassFalloff: 0.05
     - _GrassThreshold: 0.5
     - _HeightAmplitude: 0.02
@@ -253,6 +265,9 @@ Material:
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
+    - _Normal_Strength: 1
+    - _Normal_Strength_1: -0.99
+    - _Normal_Strength_2: 6.51
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -267,7 +282,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.1
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -291,7 +306,7 @@ Material:
     - _TessAmount: 64
     - _TessMaxDistance: 50
     - _TessMinDistance: 20
-    - _Tesselation_Facotr: 10
+    - _Tesselation_Facotr: 0
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactorMaxDistance: 15
     - _TessellationFactorMinDistance: 5
@@ -325,7 +340,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.6783444, g: 0.8301887, b: 0.45817018, a: 1}
+    - _Color: {r: 0.40730003, g: 0.509434, b: 0.06488074, a: 1}
     - _DiffusionProfileAsset: {r: 7.319216e-30, g: 1328.372, b: -9.765743e+25, a: 2.420667e+12}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -342,7 +357,10 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _UV_Scale: {r: 25, g: 25, b: 0, a: 0}
+    - _UV_Offset_2: {r: 0.19, g: 0.3, b: 0, a: 0}
+    - _UV_Scale: {r: 5, g: 5, b: 0, a: 0}
+    - _UV_Scale_1: {r: 25, g: 25, b: 0, a: 0}
+    - _UV_Scale_2: {r: 15, g: 15, b: 0, a: 0}
     - _WindVelocity: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9176589335197429951
