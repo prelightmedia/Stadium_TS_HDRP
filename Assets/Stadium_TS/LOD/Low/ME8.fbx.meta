@@ -3,7 +3,37 @@ guid: 0c67c329e0d85dd47a38f9c1c3bd864e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StadiumChair_01a_LOD3
+    second: {fileID: 2100000, guid: d559ab4485a6baf49bed4176afbfb629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bodyly
+    second: {fileID: 2100000, guid: 3901ce0a581135844a5be79b3a662a3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: a1933da3015674f46999449535dfee55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightbrown
+    second: {fileID: 2100000, guid: ba349275dde480c48aeb468530538f2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 87e361a033c607a478785f5b207763af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: e8837951093fe4a4e8e974acce4532c7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

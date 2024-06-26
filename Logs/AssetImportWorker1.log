@@ -15,7 +15,7 @@ E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63252
+55802
 Successfully changed project path to: E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [80272] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 513934833 [EditorId] 513934833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [134336] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 1216273459 [EditorId] 1216273459 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [80272] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 513934833 [EditorId] 513934833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [134336] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 1216273459 [EditorId] 1216273459 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 18.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1853.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -73,46 +73,46 @@ Initialize mono
 Mono path[0] = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006288 seconds.
-- Loaded All Assemblies, in  0.327 seconds
+Registered in 0.284791 seconds.
+- Loaded All Assemblies, in  5.719 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.314 seconds
-Domain Reload Profiling: 642ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 6120ms
+	BeginReloadAssembly (3992ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (352ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (95ms)
+	initialDomainReloadingComplete (327ms)
+	LoadAllAssembliesAndSetupDomain (1036ms)
+		LoadAssemblies (3991ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (1034ms)
+			TypeCache.Refresh (1032ms)
+				TypeCache.ScanAssembly (809ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (315ms)
+	FinalizeReload (402ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (260ms)
+		SetupLoadedEditorAssemblies (351ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
+			InitializePlatformSupportModulesInManaged (179ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (115ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,15 +120,15 @@ Domain Reload Profiling: 642ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.785 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+- Loaded All Assemblies, in  7.881 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 5.308 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.859 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -160,47 +160,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.988 seconds
-Domain Reload Profiling: 1774ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  1.678 seconds
+Domain Reload Profiling: 9559ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (574ms)
-		LoadAssemblies (322ms)
+	LoadAllAssembliesAndSetupDomain (7673ms)
+		LoadAssemblies (7009ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (275ms)
-				TypeCache.ScanAssembly (254ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (989ms)
+		AnalyzeDomain (736ms)
+			TypeCache.Refresh (672ms)
+				TypeCache.ScanAssembly (613ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1679ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (769ms)
+		SetupLoadedEditorAssemblies (1467ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (455ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (895ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7858 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 142 unused Assets / (4.7 MB). Loaded Objects now: 8327.
-Memory consumption went from 375.6 MB to 370.9 MB.
-Total: 6.890300 ms (FindLiveObjects: 0.850100 ms CreateObjectMapping: 0.237700 ms MarkObjects: 4.123200 ms  DeleteObjects: 1.678500 ms)
+Unloading 142 unused Assets / (4.8 MB). Loaded Objects now: 8327.
+Memory consumption went from 375.9 MB to 371.2 MB.
+Total: 6.127700 ms (FindLiveObjects: 0.780800 ms CreateObjectMapping: 0.220400 ms MarkObjects: 3.484200 ms  DeleteObjects: 1.641600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -218,77 +218,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84305.875156 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png
-  artifactKey: Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png using Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.619 ms.
- -> (artifact id: '91f884840c38c5a7af15cf37396cd6c8') in 0.094996 seconds
+  Time since last request: 172495.893624 seconds.
+  path: Assets/Stadium_TS/LOD/Low/ME8.fbx
+  artifactKey: Guid(0c67c329e0d85dd47a38f9c1c3bd864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stadium_TS/LOD/Low/ME8.fbx using Guid(0c67c329e0d85dd47a38f9c1c3bd864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.517 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.361 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.930 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.919 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.907 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.912 ms.
+ -> (artifact id: 'b6c5714aa2b457a149a751915a6064a6') in 2.062180 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2649.617739 seconds.
-  path: Assets/Stadium_TS/Texture/TX_GoalNet_NRM.PNG
-  artifactKey: Guid(cc6617e79fc7f6743842ca1dfeb832a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Texture/TX_GoalNet_NRM.PNG using Guid(cc6617e79fc7f6743842ca1dfeb832a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49911ed5d3ae031594fbfd37d4d0169') in 0.020113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Switching render pipeline 3e2e6bfc59709614ab90c0cd7d755e48 -> c78d399b0e7111b4eacf5caaae574939
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (4.7 MB). Loaded Objects now: 8331.
-Memory consumption went from 211.0 MB to 206.4 MB.
-Total: 6.898900 ms (FindLiveObjects: 0.758500 ms CreateObjectMapping: 0.194900 ms MarkObjects: 4.364700 ms  DeleteObjects: 1.579700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:srp/default-pipeline: 7cd893b9e017114baefcc5aaea759493 -> e3e2b6cf95076941ba090cdcd757e584
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17.384779 seconds.
-  path: Assets/Stadium_TS/Texture/TX_GoalNet_DIF.PNG
-  artifactKey: Guid(37fc9d2b47aeede49907100ce8ec3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Texture/TX_GoalNet_DIF.PNG using Guid(37fc9d2b47aeede49907100ce8ec3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd785385a8a9a8b893e1b66dd43309') in 0.038306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.898912 seconds.
-  path: Assets/Stadium_TS/Texture/TX_GoalNet_OPC.PNG
-  artifactKey: Guid(72740a3bfc3dfad439ef1d3ff5ba34dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Texture/TX_GoalNet_OPC.PNG using Guid(72740a3bfc3dfad439ef1d3ff5ba34dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d63778849cdb878dda669be83813fe7') in 0.050625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 65.573537 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png
-  artifactKey: Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png using Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.328 ms.
- -> (artifact id: '893a282a0d4666fe0e39b84b26bf61be') in 0.035166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 61
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.475 seconds
-Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.206 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -325,143 +271,46 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.456 seconds
-Domain Reload Profiling: 1930ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in 17.792 seconds
+Domain Reload Profiling: 19996ms
+	BeginReloadAssembly (249ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (34ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (110ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (286ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (1809ms)
+		LoadAssemblies (1887ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (28ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (18ms)
-	FinalizeReload (1456ms)
+	FinalizeReload (17792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (563ms)
+		SetupLoadedEditorAssemblies (561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (380ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8358.
-Memory consumption went from 325.1 MB to 320.3 MB.
-Total: 7.407000 ms (FindLiveObjects: 0.897400 ms CreateObjectMapping: 0.322900 ms MarkObjects: 4.144600 ms  DeleteObjects: 2.041400 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.475 seconds
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to retreived packages from Package Manager...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-StylizedGrass.AssetInfo/PackageInstaller:RetreivePackageList () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:67)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:37)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Stylized Grass Shader/Editor/AssetInfo.cs Line: 67)
-
-Cancelling DisplayDialog: Stylized Grass Shader v1.4.4 This package requires the Universal Render Pipeline 12.1.8 or newer, would you like to install or update it now?
-This should not be called in batch mode.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:39)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.438 seconds
-Domain Reload Profiling: 1912ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (285ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1439ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (389ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (50ms)
-Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8374.
-Memory consumption went from 325.3 MB to 320.5 MB.
-Total: 7.125800 ms (FindLiveObjects: 0.888900 ms CreateObjectMapping: 0.229100 ms MarkObjects: 3.990500 ms  DeleteObjects: 2.015600 ms)
+Unloading 7444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8509.
+Memory consumption went from 330.5 MB to 325.7 MB.
+Total: 7.343200 ms (FindLiveObjects: 1.024200 ms CreateObjectMapping: 0.219500 ms MarkObjects: 4.151600 ms  DeleteObjects: 1.947000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -481,8 +330,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.470 seconds
-Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.487 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -519,46 +368,46 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.340 seconds
-Domain Reload Profiling: 1810ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  1.527 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
+		CreateAndSetChildDomain (46ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (239ms)
-		LoadAssemblies (283ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (295ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
+		AnalyzeDomain (27ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1340ms)
+	FinalizeReload (1528ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (541ms)
+		SetupLoadedEditorAssemblies (561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (392ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (409ms)
 			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
-Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8390.
-Memory consumption went from 327.2 MB to 322.4 MB.
-Total: 7.387700 ms (FindLiveObjects: 1.099900 ms CreateObjectMapping: 0.358800 ms MarkObjects: 3.895000 ms  DeleteObjects: 2.032900 ms)
+Unloading 7447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (2.5 MB). Loaded Objects now: 8555.
+Memory consumption went from 333.5 MB to 331.0 MB.
+Total: 6.820100 ms (FindLiveObjects: 0.804200 ms CreateObjectMapping: 0.218900 ms MarkObjects: 4.281100 ms  DeleteObjects: 1.514700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -579,7 +428,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.485 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -616,9 +465,123 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.341 seconds
-Domain Reload Profiling: 1826ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  1.484 seconds
+Domain Reload Profiling: 1968ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (2.4 MB). Loaded Objects now: 8571.
+Memory consumption went from 332.7 MB to 330.4 MB.
+Total: 6.192200 ms (FindLiveObjects: 0.769500 ms CreateObjectMapping: 0.224500 ms MarkObjects: 3.620700 ms  DeleteObjects: 1.576300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4165.385680 seconds.
+  path: Assets/Stadium_TS/Texture/TX_StadiumChairLOD3_NRM.PNG
+  artifactKey: Guid(8b7c422c75d8cea4aa2f9738ba8773e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stadium_TS/Texture/TX_StadiumChairLOD3_NRM.PNG using Guid(8b7c422c75d8cea4aa2f9738ba8773e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b1c736cbcd3b655af4f4dc0d378704') in 0.170856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 194.825680 seconds.
+  path: Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png
+  artifactKey: Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/Surfaces/Cut Grass_sfenffsa/Textures/Normal_4K__sfenffsa.png using Guid(9849e9d0ea15ae145981733f53f5d083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.337 ms.
+ -> (artifact id: '893a282a0d4666fe0e39b84b26bf61be') in 0.030697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Failed to retreived packages from Package Manager...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+StylizedGrass.AssetInfo/PackageInstaller:RetreivePackageList () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:67)
+StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:37)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Stylized Grass Shader/Editor/AssetInfo.cs Line: 67)
+
+Cancelling DisplayDialog: Stylized Grass Shader v1.4.4 This package requires the Universal Render Pipeline 12.1.8 or newer, would you like to install or update it now?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
+StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:39)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.550 seconds
+Domain Reload Profiling: 2029ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
@@ -627,231 +590,37 @@ Domain Reload Profiling: 1826ms
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (253ms)
-		LoadAssemblies (296ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (288ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1342ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (533ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (49ms)
-Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.7 MB). Loaded Objects now: 8406.
-Memory consumption went from 329.1 MB to 324.4 MB.
-Total: 6.436800 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.221200 ms MarkObjects: 3.509600 ms  DeleteObjects: 1.866700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to retreived packages from Package Manager...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-StylizedGrass.AssetInfo/PackageInstaller:RetreivePackageList () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:67)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:37)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Stylized Grass Shader/Editor/AssetInfo.cs Line: 67)
-
-Cancelling DisplayDialog: Stylized Grass Shader v1.4.4 This package requires the Universal Render Pipeline 12.1.8 or newer, would you like to install or update it now?
-This should not be called in batch mode.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:39)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.430 seconds
-Domain Reload Profiling: 1938ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (309ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1431ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (561ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (50ms)
-Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8422.
-Memory consumption went from 331.1 MB to 326.3 MB.
-Total: 6.784300 ms (FindLiveObjects: 0.794300 ms CreateObjectMapping: 0.226200 ms MarkObjects: 3.686100 ms  DeleteObjects: 2.076900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to retreived packages from Package Manager...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-StylizedGrass.AssetInfo/PackageInstaller:RetreivePackageList () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:67)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:37)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Stylized Grass Shader/Editor/AssetInfo.cs Line: 67)
-
-Cancelling DisplayDialog: Stylized Grass Shader v1.4.4 This package requires the Universal Render Pipeline 12.1.8 or newer, would you like to install or update it now?
-This should not be called in batch mode.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
-StylizedGrass.AssetInfo/PackageInstaller:Initialize () (at Assets/Stylized Grass Shader/Editor/AssetInfo.cs:39)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Stylized Grass Shader/Editor/AssetInfo.cs line 39]
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.418 seconds
-Domain Reload Profiling: 1927ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (310ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1419ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (554ms)
+		SetupLoadedEditorAssemblies (571ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (51ms)
-Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (4.7 MB). Loaded Objects now: 8438.
-Memory consumption went from 333.0 MB to 328.2 MB.
-Total: 6.921900 ms (FindLiveObjects: 0.812200 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.606100 ms  DeleteObjects: 2.278900 ms)
+Unloading 7417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (2.4 MB). Loaded Objects now: 8590.
+Memory consumption went from 334.8 MB to 332.4 MB.
+Total: 5.914700 ms (FindLiveObjects: 0.843900 ms CreateObjectMapping: 0.216700 ms MarkObjects: 3.486600 ms  DeleteObjects: 1.366300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+Prepare: number of updated asset objects reloaded= 16
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
