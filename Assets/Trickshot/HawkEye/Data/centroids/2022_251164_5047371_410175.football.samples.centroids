@@ -1,0 +1,1565 @@
+{
+  "apiVersion": "0.0.8",
+  "createdAtDateTime": "2022-11-22T10:27:55.837Z",
+  "details": {
+    "competition": {
+      "id": {
+        "fifaId": "251164",
+        "heId": "b047bc0f-b1b2-4d04-a746-08d9aff45460"
+      },
+      "name": "FWC",
+      "year": 2022
+    },
+    "match": {
+      "id": {
+        "fifaId": "133001",
+        "heId": "81b22534-5bb3-458e-6601-08da9d685fa9"
+      }
+    },
+    "players": [
+      {
+        "id": {
+          "fifaId": "398422",
+          "heId": "9d305f6f-a719-4671-d7c3-08d9aff479b7"
+        },
+        "jerseyNumber": "1",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "402918",
+          "heId": "95eacfe1-d5ea-4e4d-2dad-08daca142070"
+        },
+        "jerseyNumber": "2",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "308322",
+          "heId": "5b6e4da2-a3f9-4b05-d7b7-08d9aff479b7"
+        },
+        "jerseyNumber": "3",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "402926",
+          "heId": "a9341d80-d713-4c7d-2db5-08daca142070"
+        },
+        "jerseyNumber": "4",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "332847",
+          "heId": "6b0ba2a8-810d-4860-2da7-08daca142070"
+        },
+        "jerseyNumber": "5",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "332979",
+          "heId": "a243d405-6e4c-4a0a-2daf-08daca142070"
+        },
+        "jerseyNumber": "6",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "428882",
+          "heId": "53717c71-e6ff-4481-2da8-08daca142070"
+        },
+        "jerseyNumber": "7",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "401204",
+          "heId": "8fa9864d-2aeb-4b10-d7c1-08d9aff479b7"
+        },
+        "jerseyNumber": "8",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "416081",
+          "heId": "b9b3ce8b-3561-4b25-2db3-08daca142070"
+        },
+        "jerseyNumber": "9",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "229397",
+          "heId": "3e198cb0-ad5b-4bfb-d7b3-08d9aff479b7"
+        },
+        "jerseyNumber": "10",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "266800",
+          "heId": "132261ca-660e-4989-d7b2-08d9aff479b7"
+        },
+        "jerseyNumber": "11",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "394824",
+          "heId": "f7532747-81bf-406c-2dae-08daca142070"
+        },
+        "jerseyNumber": "12",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "431196",
+          "heId": "849f772b-d244-4f67-2daa-08daca142070"
+        },
+        "jerseyNumber": "13",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "389485",
+          "heId": "8945ac66-f64c-4d72-2db2-08daca142070"
+        },
+        "jerseyNumber": "14",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "385343",
+          "heId": "25923da9-46ce-4f3e-2dac-08daca142070"
+        },
+        "jerseyNumber": "15",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "418975",
+          "heId": "d120c8c7-f4b1-480f-2db4-08daca142070"
+        },
+        "jerseyNumber": "16",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "228537",
+          "heId": "25462762-a415-4b4f-2da6-08daca142070"
+        },
+        "jerseyNumber": "17",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "392671",
+          "heId": "8961eeb3-fbfd-41b7-2db1-08daca142070"
+        },
+        "jerseyNumber": "18",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "310116",
+          "heId": "4f62fda9-7bc1-458a-d7b9-08d9aff479b7"
+        },
+        "jerseyNumber": "19",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "430628",
+          "heId": "103a2443-6285-4b0e-f465-08d9b011f76f"
+        },
+        "jerseyNumber": "20",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "392905",
+          "heId": "9a1983a4-161c-4935-d7c6-08d9aff479b7"
+        },
+        "jerseyNumber": "21",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "402920",
+          "heId": "aeaa49bc-6291-4795-2da9-08daca142070"
+        },
+        "jerseyNumber": "22",
+        "role": {
+          "id": 4,
+          "name": "Forward"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "308300",
+          "heId": "57a886cd-c933-4187-2da5-08daca142070"
+        },
+        "jerseyNumber": "23",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "448252",
+          "heId": "88714231-d4a9-47d8-2db6-08daca142070"
+        },
+        "jerseyNumber": "24",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "402921",
+          "heId": "2c13e891-5843-4748-2db0-08daca142070"
+        },
+        "jerseyNumber": "25",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "402925",
+          "heId": "b5216aaa-3df3-44b8-2dab-08daca142070"
+        },
+        "jerseyNumber": "26",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "403337",
+          "heId": "16239148-eef6-44e8-f4a8-08d9b011f76f"
+        },
+        "jerseyNumber": "1",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "431757",
+          "heId": "eae72fd4-5a08-4d94-2dbb-08daca142070"
+        },
+        "jerseyNumber": "2",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "430502",
+          "heId": "671e496c-22b9-4397-2dba-08daca142070"
+        },
+        "jerseyNumber": "3",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "403312",
+          "heId": "4c3b53b5-5295-45e9-f4a6-08d9b011f76f"
+        },
+        "jerseyNumber": "4",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "407983",
+          "heId": "92aad2d0-0a7e-4ed8-d8ca-08d9aff479b7"
+        },
+        "jerseyNumber": "5",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "397857",
+          "heId": "e3680158-2975-453b-d78b-08d9aff479b7"
+        },
+        "jerseyNumber": "6",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "352891",
+          "heId": "9db0b946-d1c4-4482-d787-08d9aff479b7"
+        },
+        "jerseyNumber": "7",
+        "role": {
+          "id": 4,
+          "name": "Forward"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "430170",
+          "heId": "c84531b7-c264-4fd4-2db8-08daca142070"
+        },
+        "jerseyNumber": "8",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "419291",
+          "heId": "4f578282-5f6a-46a2-f4f9-08d9b011f76f"
+        },
+        "jerseyNumber": "9",
+        "role": {
+          "id": 4,
+          "name": "Forward"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "339745",
+          "heId": "9c68157f-82b0-4144-d786-08d9aff479b7"
+        },
+        "jerseyNumber": "10",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "425804",
+          "heId": "032c9423-a9b0-4836-a596-08d9e72b70a9"
+        },
+        "jerseyNumber": "11",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "419281",
+          "heId": "186f0a0e-5bb0-4561-f4a9-08d9b011f76f"
+        },
+        "jerseyNumber": "12",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "339482",
+          "heId": "11f556aa-4494-4ef7-d78e-08d9aff479b7"
+        },
+        "jerseyNumber": "13",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "339474",
+          "heId": "8e12e53b-90e3-4dc4-d78a-08d9aff479b7"
+        },
+        "jerseyNumber": "14",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "430504",
+          "heId": "ac13fb39-a32f-4a44-f4ab-08d9b011f76f"
+        },
+        "jerseyNumber": "15",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "403327",
+          "heId": "69e135d3-bd3f-4f6f-f4a7-08d9b011f76f"
+        },
+        "jerseyNumber": "16",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "403335",
+          "heId": "26402313-3eda-400e-2db7-08daca142070"
+        },
+        "jerseyNumber": "17",
+        "role": {
+          "id": 2,
+          "name": "Defender"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "330913",
+          "heId": "658285b2-c977-4953-4160-08d9b02ae919"
+        },
+        "jerseyNumber": "18",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "339485",
+          "heId": "a10f0b55-1559-4c54-d8c9-08d9aff479b7"
+        },
+        "jerseyNumber": "19",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "433436",
+          "heId": "602ce016-1e06-4f07-2dbc-08daca142070"
+        },
+        "jerseyNumber": "20",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "396885",
+          "heId": "1676dbdd-98e8-43c5-d8cb-08d9aff479b7"
+        },
+        "jerseyNumber": "21",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "419287",
+          "heId": "f5235697-91f1-497e-b5db-08d9b3e348fc"
+        },
+        "jerseyNumber": "22",
+        "role": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "407993",
+          "heId": "08bcd590-59d9-49c2-f36f-08d9b011f76f"
+        },
+        "jerseyNumber": "23",
+        "role": {
+          "id": 3,
+          "name": "Midfielder"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "403319",
+          "heId": "3ecd184c-cc6d-4ba1-2db9-08daca142070"
+        },
+        "jerseyNumber": "24",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "436535",
+          "heId": "9aaf8b14-e494-45e8-b5d6-08d9b3e348fc"
+        },
+        "jerseyNumber": "25",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      },
+      {
+        "id": {
+          "fifaId": "448264",
+          "heId": "c094a067-4e5a-4302-2dbd-08daca142070"
+        },
+        "jerseyNumber": "26",
+        "role": {
+          "id": 0,
+          "name": "Unknown"
+        },
+        "teamId": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "home": true,
+        "id": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        },
+        "name": "Argentina"
+      },
+      {
+        "home": false,
+        "id": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        },
+        "name": "Saudi Arabia"
+      }
+    ],
+    "venue": {
+      "id": {
+        "fifaId": "5047371",
+        "heId": "f442da96-916a-4fd8-4c25-08dac3e71c0d"
+      },
+      "name": "Lusail Stadium"
+    }
+  },
+  "message": "live.samples.people.centroids",
+  "processingEndDateTime": "2022-11-22T10:27:55.838Z",
+  "processingStartDateTime": "2022-11-22T10:27:55.837Z",
+  "processingTimeMilliseconds": 0.6103,
+  "revision": 0,
+  "samples": {
+    "people": [
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.1040029812927877,
+              "metres": 0.03170010768363825
+            },
+            "pos": [
+              3.63962203397557,
+              -14.443487362507183
+            ],
+            "speed": {
+              "mph": 3.545561944091887,
+              "mps": 1.5850053841819123
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "402925",
+          "heId": "b5216aaa-3df3-44b8-2dab-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1553
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.04342783138738758,
+              "metres": 0.013236802583298053
+            },
+            "pos": [
+              19.51940243206431,
+              22.90170586919467
+            ],
+            "speed": {
+              "mph": 1.4804966585341375,
+              "mps": 0.6618401291649026
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "419291",
+          "heId": "4f578282-5f6a-46a2-f4f9-08d9b011f76f"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1599
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.1637055575228307,
+              "metres": 0.04989745233624032
+            },
+            "pos": [
+              25.412766026856783,
+              8.334544537913688
+            ],
+            "speed": {
+              "mph": 5.580880351451472,
+              "mps": 2.494872616812016
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "419281",
+          "heId": "186f0a0e-5bb0-4561-f4a9-08d9b011f76f"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1605
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.14245610624144833,
+              "metres": 0.043420619792933615
+            },
+            "pos": [
+              20.99466843677602,
+              -1.853855857059721
+            ],
+            "speed": {
+              "mph": 4.856466061980246,
+              "mps": 2.1710309896466806
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "430170",
+          "heId": "c84531b7-c264-4fd4-2db8-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1609
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.07918852954332464,
+              "metres": 0.024136663032432133
+            },
+            "pos": [
+              12.9625233002235,
+              -1.2146645815830945
+            ],
+            "speed": {
+              "mph": 2.699613350188437,
+              "mps": 1.2068331516216066
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "425804",
+          "heId": "032c9423-a9b0-4836-a596-08d9e72b70a9"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1633
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.18593309512837158,
+              "metres": 0.05667240558161068
+            },
+            "pos": [
+              15.857832091877391,
+              5.7115131544795235
+            ],
+            "speed": {
+              "mph": 6.33863854708641,
+              "mps": 2.833620279080534
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "407993",
+          "heId": "08bcd590-59d9-49c2-f36f-08d9b011f76f"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1639
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.0486985288235165,
+              "metres": 0.014843311110421874
+            },
+            "pos": [
+              24.56965209580439,
+              1.8609307226082823
+            ],
+            "speed": {
+              "mph": 1.6601798177673557,
+              "mps": 0.7421655555210938
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "403335",
+          "heId": "26402313-3eda-400e-2db7-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1645
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.001282721623540329,
+              "metres": 0.00039097353834393906
+            },
+            "pos": [
+              -30.57913658425473,
+              -0.3662096186374326
+            ],
+            "speed": {
+              "mph": 0.043729217343154554,
+              "mps": 0.01954867691719695
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "308300",
+          "heId": "57a886cd-c933-4187-2da5-08daca142070"
+        },
+        "role": {
+          "id": 2,
+          "name": "Goalkeeper"
+        },
+        "trackId": 1695
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.07566295312908711,
+              "metres": 0.023062067375759596
+            },
+            "pos": [
+              10.058258062318773,
+              14.346913939854167
+            ],
+            "speed": {
+              "mph": 2.5794230497765835,
+              "mps": 1.1531033687879797
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "332847",
+          "heId": "6b0ba2a8-810d-4860-2da7-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1717
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.0463136153061598,
+              "metres": 0.014116389493593043
+            },
+            "pos": [
+              19.781722700051144,
+              11.907709611764012
+            ],
+            "speed": {
+              "mph": 1.5788758156899012,
+              "mps": 0.7058194746796521
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "352891",
+          "heId": "9db0b946-d1c4-4482-d787-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1729
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.0802085533311854,
+              "metres": 0.024447566273023188
+            },
+            "pos": [
+              -5.844992595831208,
+              34.216165260512604
+            ],
+            "speed": {
+              "mph": 2.7343869449388247,
+              "mps": 1.2223783136511595
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {},
+        "role": {
+          "id": 5,
+          "name": "AssistantReferee2"
+        },
+        "trackId": 1765
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.06971921029125307,
+              "metres": 0.02125041461676067
+            },
+            "pos": [
+              47.20406880914601,
+              0.4149521290849998
+            ],
+            "speed": {
+              "mph": 2.3767951236408305,
+              "mps": 1.0625207308380333
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "396885",
+          "heId": "1676dbdd-98e8-43c5-d8cb-08d9aff479b7"
+        },
+        "role": {
+          "id": 2,
+          "name": "Goalkeeper"
+        },
+        "trackId": 1773
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.0980855715962727,
+              "metres": 0.029896481265856516
+            },
+            "pos": [
+              12.055362878058107,
+              -10.784304149551433
+            ],
+            "speed": {
+              "mph": 3.343831740142254,
+              "mps": 1.4948240632928258
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "339745",
+          "heId": "9c68157f-82b0-4144-d786-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1783
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.1006379510241698,
+              "metres": 0.030674446490584664
+            },
+            "pos": [
+              23.76728067687621,
+              -0.022945216293793477
+            ],
+            "speed": {
+              "mph": 3.430844816632423,
+              "mps": 1.533722324529233
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "407983",
+          "heId": "92aad2d0-0a7e-4ed8-d8ca-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1787
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.21863076681057925,
+              "metres": 0.06663865559142758
+            },
+            "pos": [
+              26.811691735104432,
+              -34.79760520426358
+            ],
+            "speed": {
+              "mph": 7.4533337119344,
+              "mps": 3.3319327795713787
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {},
+        "role": {
+          "id": 4,
+          "name": "AssistantReferee1"
+        },
+        "trackId": 1807
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.25343051452370174,
+              "metres": 0.0772456183549645
+            },
+            "pos": [
+              19.07636744134699,
+              7.1591241770650695
+            ],
+            "speed": {
+              "mph": 8.639690676147715,
+              "mps": 3.862280917748225
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "315008",
+          "heId": "f8e4d19c-23bd-4565-6d6a-08da4d5e27ae"
+        },
+        "role": {
+          "id": 3,
+          "name": "Referee"
+        },
+        "trackId": 1819
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.08505402566110595,
+              "metres": 0.025924466191922176
+            },
+            "pos": [
+              -2.2183975446572406,
+              5.519094985118547
+            ],
+            "speed": {
+              "mph": 2.89957377016792,
+              "mps": 1.2962233095961089
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "310116",
+          "heId": "4f62fda9-7bc1-458a-d7b9-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1837
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.22991703585866313,
+              "metres": 0.07007871028720179
+            },
+            "pos": [
+              22.392989584190165,
+              -20.67154366954605
+            ],
+            "speed": {
+              "mph": 7.838093509492659,
+              "mps": 3.5039355143600894
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "266800",
+          "heId": "132261ca-660e-4989-d7b2-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1843
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.3097026440290822,
+              "metres": 0.09439736287934865
+            },
+            "pos": [
+              28.561558274518035,
+              -4.086634548472275
+            ],
+            "speed": {
+              "mph": 10.55806184596651,
+              "mps": 4.719868143967433
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "229397",
+          "heId": "3e198cb0-ad5b-4bfb-d7b3-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1847
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.38657821196248815,
+              "metres": 0.11782903523563726
+            },
+            "pos": [
+              28.930156530853107,
+              1.042165684242665
+            ],
+            "speed": {
+              "mph": 13.17882410400032,
+              "mps": 5.8914517617818625
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "402920",
+          "heId": "aeaa49bc-6291-4795-2da9-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1851
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.04919780544709154,
+              "metres": 0.014995490620417802
+            },
+            "pos": [
+              15.821545115918406,
+              0.02073644877351025
+            ],
+            "speed": {
+              "mph": 1.67720063942187,
+              "mps": 0.7497745310208901
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "228537",
+          "heId": "25462762-a415-4b4f-2da6-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1859
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.0621090497718274,
+              "metres": 0.018930837764666184
+            },
+            "pos": [
+              23.760216479744674,
+              17.505454935492136
+            ],
+            "speed": {
+              "mph": 2.117357411464619,
+              "mps": 0.9465418882333092
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "308322",
+          "heId": "5b6e4da2-a3f9-4b05-d7b7-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1861
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.08591975251154038,
+              "metres": 0.02618833972749064
+            },
+            "pos": [
+              -4.926247268984094,
+              -5.9354091462944885
+            ],
+            "speed": {
+              "mph": 2.929087233500646,
+              "mps": 1.309416986374532
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "431196",
+          "heId": "849f772b-d244-4f67-2daa-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1863
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.16477496515357104,
+              "metres": 0.05022340777165941
+            },
+            "pos": [
+              14.055965766377744,
+              -2.101371874707978
+            ],
+            "speed": {
+              "mph": 5.61733748903679,
+              "mps": 2.51117038858297
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "428882",
+          "heId": "53717c71-e6ff-4481-2da8-08daca142070"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1865
+      },
+      {
+        "centroid": [
+          {
+            "distance": {
+              "feet": 0.21096537045133168,
+              "metres": 0.06430224285589413
+            },
+            "pos": [
+              26.748339135922066,
+              -12.299869024023167
+            ],
+            "speed": {
+              "mph": 7.1920129567031905,
+              "mps": 3.2151121427947063
+            },
+            "time": 1610.707
+          }
+        ],
+        "personId": {
+          "fifaId": "339482",
+          "heId": "11f556aa-4494-4ef7-d78e-08d9aff479b7"
+        },
+        "role": {
+          "id": 1,
+          "name": "Outfielder"
+        },
+        "trackId": 1887
+      }
+    ]
+  },
+  "segments": [
+    {
+      "endTimeUTC": "2022-11-21T17:30:00.000Z",
+      "segment": 0,
+      "startTimeUTC": "2022-11-21T14:30:00.000Z"
+    },
+    {
+      "segment": 1,
+      "startTimeUTC": "2022-11-22T10:01:04.098Z"
+    }
+  ],
+  "sequences": {
+    "frame": 410175,
+    "segment": 1
+  },
+  "software": {
+    "name": "Hawk-Eye.DataPlatform.Live.App",
+    "version": "5.13.1.0"
+  },
+  "sport": "football",
+  "supplierCreatedDateTime": "2022-11-22T10:27:54.805Z",
+  "supplierCreatedToProcessingEndMilliseconds": 1033.0606,
+  "supplierPublishDateTime": "2022-11-22T10:27:55.432Z",
+  "time": {
+    "offset": "+03:00",
+    "timeUTC": "2022-11-22T10:27:54.805Z"
+  },
+  "units": {
+    "acceleration": "mps/s",
+    "angle": "degree",
+    "length": "metre",
+    "velocity": "mps"
+  },
+  "updatedAtDateTime": "2022-11-22T10:27:55.837Z",
+  "uuid": "f0dbbae7-d460-46de-82bf-1598724cd2a3"
+}

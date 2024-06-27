@@ -1,0 +1,106 @@
+{
+  "apiVersion": "0.0.8",
+  "createdAtDateTime": "2022-11-22T10:27:59.873Z",
+  "details": {
+    "competition": {
+      "id": {
+        "fifaId": "251164",
+        "heId": "b047bc0f-b1b2-4d04-a746-08d9aff45460"
+      },
+      "name": "FWC",
+      "year": 2022
+    },
+    "match": {
+      "id": {
+        "fifaId": "133001",
+        "heId": "81b22534-5bb3-458e-6601-08da9d685fa9"
+      }
+    },
+    "teams": [
+      {
+        "home": true,
+        "id": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        },
+        "name": "Argentina"
+      },
+      {
+        "home": false,
+        "id": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        },
+        "name": "Saudi Arabia"
+      }
+    ],
+    "venue": {
+      "id": {
+        "fifaId": "5047371",
+        "heId": "f442da96-916a-4fd8-4c25-08dac3e71c0d"
+      },
+      "name": "Lusail Stadium"
+    }
+  },
+  "message": "live.samples.ball",
+  "processingEndDateTime": "2022-11-22T10:27:59.873Z",
+  "processingStartDateTime": "2022-11-22T10:27:59.872Z",
+  "processingTimeMilliseconds": 0.5248,
+  "revision": 0,
+  "samples": {
+    "ball": [
+      {
+        "bounds": "Out",
+        "distance": {
+          "feet": 0.18001128375120504,
+          "metres": 0.054867437531609296
+        },
+        "pos": [
+          54.404474985595165,
+          3.1605697573177918,
+          0.44943900239249623
+        ],
+        "speed": {
+          "mph": 6.136758285597906,
+          "mps": 2.743371876580465
+        },
+        "time": 1614.787
+      }
+    ]
+  },
+  "segments": [
+    {
+      "endTimeUTC": "2022-11-21T17:30:00.000Z",
+      "segment": 0,
+      "startTimeUTC": "2022-11-21T14:30:00.000Z"
+    },
+    {
+      "segment": 1,
+      "startTimeUTC": "2022-11-22T10:01:04.098Z"
+    }
+  ],
+  "sequences": {
+    "frame": 410379,
+    "segment": 1
+  },
+  "software": {
+    "name": "Hawk-Eye.DataPlatform.Live.App",
+    "version": "5.13.1.0"
+  },
+  "sport": "football",
+  "supplierCreatedDateTime": "2022-11-22T10:27:58.885Z",
+  "supplierCreatedToProcessingEndMilliseconds": 988.3443,
+  "supplierPublishDateTime": "2022-11-22T10:27:59.464Z",
+  "time": {
+    "offset": "+03:00",
+    "timeUTC": "2022-11-22T10:27:58.885Z"
+  },
+  "units": {
+    "acceleration": "mps/s",
+    "angle": "degree",
+    "length": "metre",
+    "velocity": "mps"
+  },
+  "updatedAtDateTime": "2022-11-22T10:27:59.873Z",
+  "uuid": "c7a24210-4d30-4f8c-b057-7f72d6ee67ff"
+}

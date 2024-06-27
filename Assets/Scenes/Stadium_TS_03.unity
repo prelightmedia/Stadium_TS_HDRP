@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 29.921787, g: 37.069035, b: 49.06019, a: 1}
+  m_IndirectSpecularColor: {r: 29.94437, g: 37.097633, b: 49.100716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -32611,6 +32611,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8aa076c2ad5cf894c872a0a714f03171, type: 3}
   m_PrefabInstance: {fileID: 1324443107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1503033255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.262
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.213
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233775823758986125, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513622327103774444, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
+      propertyPath: m_Name
+      value: HawkEye-v06
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19996a1829084b31b627b20ec1fa6f7, type: 3}
 --- !u!1 &1509840418
 GameObject:
   m_ObjectHideFlags: 0
@@ -36928,3 +36985,4 @@ SceneRoots:
   - {fileID: 7302800}
   - {fileID: 1606260680}
   - {fileID: 825640325}
+  - {fileID: 1503033255}

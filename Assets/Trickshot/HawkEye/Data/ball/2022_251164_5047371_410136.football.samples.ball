@@ -1,0 +1,112 @@
+{
+  "apiVersion": "0.0.8",
+  "createdAtDateTime": "2022-11-22T10:27:55.059Z",
+  "details": {
+    "competition": {
+      "id": {
+        "fifaId": "251164",
+        "heId": "b047bc0f-b1b2-4d04-a746-08d9aff45460"
+      },
+      "name": "FWC",
+      "year": 2022
+    },
+    "match": {
+      "id": {
+        "fifaId": "133001",
+        "heId": "81b22534-5bb3-458e-6601-08da9d685fa9"
+      }
+    },
+    "teams": [
+      {
+        "home": true,
+        "id": {
+          "fifaId": "43922",
+          "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+        },
+        "name": "Argentina"
+      },
+      {
+        "home": false,
+        "id": {
+          "fifaId": "43835",
+          "heId": "cc1e5ae5-369d-4215-ac44-08d9aff4559d"
+        },
+        "name": "Saudi Arabia"
+      }
+    ],
+    "venue": {
+      "id": {
+        "fifaId": "5047371",
+        "heId": "f442da96-916a-4fd8-4c25-08dac3e71c0d"
+      },
+      "name": "Lusail Stadium"
+    }
+  },
+  "message": "live.samples.ball",
+  "processingEndDateTime": "2022-11-22T10:27:55.059Z",
+  "processingStartDateTime": "2022-11-22T10:27:55.058Z",
+  "processingTimeMilliseconds": 0.4592,
+  "revision": 0,
+  "samples": {
+    "ball": [
+      {
+        "bounds": "In",
+        "distance": {
+          "feet": 0.9311017744093728,
+          "metres": 0.28379981175838287
+        },
+        "pos": [
+          22.505707134102007,
+          0.5363704601097569,
+          0.22655020359421213
+        ],
+        "possession": {
+          "teamId": {
+            "fifaId": "43922",
+            "heId": "61166546-bfdf-4815-ac49-08d9aff4559d"
+          }
+        },
+        "speed": {
+          "mph": 31.74215754573985,
+          "mps": 14.189990587919143
+        },
+        "time": 1609.927
+      }
+    ]
+  },
+  "segments": [
+    {
+      "endTimeUTC": "2022-11-21T17:30:00.000Z",
+      "segment": 0,
+      "startTimeUTC": "2022-11-21T14:30:00.000Z"
+    },
+    {
+      "segment": 1,
+      "startTimeUTC": "2022-11-22T10:01:04.098Z"
+    }
+  ],
+  "sequences": {
+    "frame": 410136,
+    "segment": 1
+  },
+  "software": {
+    "name": "Hawk-Eye.DataPlatform.Live.App",
+    "version": "5.13.1.0"
+  },
+  "sport": "football",
+  "supplierCreatedDateTime": "2022-11-22T10:27:54.025Z",
+  "supplierCreatedToProcessingEndMilliseconds": 1034.0836,
+  "supplierPublishDateTime": "2022-11-22T10:27:54.652Z",
+  "time": {
+    "offset": "+03:00",
+    "timeUTC": "2022-11-22T10:27:54.025Z"
+  },
+  "units": {
+    "acceleration": "mps/s",
+    "angle": "degree",
+    "length": "metre",
+    "velocity": "mps"
+  },
+  "updatedAtDateTime": "2022-11-22T10:27:55.059Z",
+  "uuid": "754bda5d-0ef9-46f0-8cbf-0704a6e1ad36"
+}
