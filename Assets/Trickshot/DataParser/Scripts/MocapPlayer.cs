@@ -101,19 +101,23 @@ public class MocapPlayer : MonoBehaviour
 
             // Apply the rotation to the game object
             ik.transform.rotation = targetRotation;
+
+            updatePoints = hawkEye.GetPlayerPoints(playerIndex);
         }
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (hawkEye.hawkEyeFiles.isReady == false) return;
 
         
-        updatePoints = hawkEye.GetPlayerPoints(playerIndex);
+        //updatePoints = hawkEye.GetPlayerPoints(playerIndex);
 
         // Initiate
         if (this.points == null || this.points.Count == 0 && initiated == false)
         {
+            updatePoints = hawkEye.GetPlayerPoints(playerIndex);
+
             this.points = new List<MocapPoint>();
 
             foreach (HawkEyeParse.Point point in updatePoints)

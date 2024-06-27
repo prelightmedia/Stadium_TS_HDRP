@@ -22,7 +22,7 @@ public class HawkEyeParse : MonoBehaviour
 
     private void Awake()
     {
-        Application.targetFrameRate = 50;
+        Application.targetFrameRate = 100;
         hawkEyeFiles.OnReady.AddListener(HandlerOnReady);
     }
 

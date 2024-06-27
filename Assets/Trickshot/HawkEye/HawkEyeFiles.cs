@@ -34,7 +34,7 @@ public class HawkEyeFiles : MonoBehaviour
 
     private void LoadAllJointData()
     {
-        string directoryPath = Path.Combine(Application.dataPath, dir + "joints/");
+        string directoryPath = Path.Combine(Application.streamingAssetsPath, dir + "joints/");
         if (!Directory.Exists(directoryPath))
         {
             Debug.LogError("Directory does not exist: " + directoryPath);
@@ -82,7 +82,7 @@ public class HawkEyeFiles : MonoBehaviour
 
     public string GetBall(int index)
     {
-        string directoryPath = Path.Combine(Application.dataPath, dir + "ball/");
+        string directoryPath = Path.Combine(Application.streamingAssetsPath, dir + "ball/");
 
         if (!Directory.Exists(directoryPath))
         {
