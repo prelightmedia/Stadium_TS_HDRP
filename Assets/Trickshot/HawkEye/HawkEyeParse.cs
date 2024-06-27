@@ -17,8 +17,6 @@ public class HawkEyeParse : MonoBehaviour
 
     [Header("IK Systems")]
     public SOBoneMap map;
-    public GameObject dummy;
-    public bool spawn = false;
 
     private void Awake()
     {
@@ -47,68 +45,14 @@ public class HawkEyeParse : MonoBehaviour
 
             UpdateJoints(json["samples"]["people"][i]["joints"][0].AsObject, i, player);
 
-            if (spawn)
-            {
-                //IK avatar mapper
-                JointModule jm = player.gameObject.AddComponent<JointModule>();
-                jm.Initiate(map);
-
-                IKController iKController = Instantiate(dummy).GetComponent<IKController>();
-                iKController.transform.SetParent(player);
-                iKController.InitateIK(jm);
-            }
         }
 
         
     }
 
-    private void Start()
-    {
-       
-
-        /*
-        // Initialise the data and create the nodes
-        string data = hawkEyeFiles.GetJoint(0);
-        JSONNode json = JSON.Parse(data);
-
-        for (int i = 0; i < json["samples"]["people"].AsArray.Count; i++)
-        {
-            Transform player = new GameObject().transform;
-            player.SetParent(transform);
-            player.name = "Player " + i;
-
-            UpdateJoints(json["samples"]["people"][i]["joints"][0].AsObject, i, player);
-
-            if (spawn)
-            {
-                //IK Dummy
-                JointModule jm = player.gameObject.AddComponent<JointModule>();
-                jm.Initiate(map);
-
-                IKController iKController = Instantiate(dummy).GetComponent<IKController>();
-                iKController.transform.SetParent(player);
-                //iKController.transform.SetParent(jm.GetJoint(HumanBodyBones.Hips));
-                //iKController.transform.localPosition = new Vector3(0, 0, 0);
-                //iKController.transform.localEulerAngles = Vector3.zero;
-                iKController.InitateIK(jm);
-            }
-           
-        }
 
 
-        string dataBall = hawkEyeFiles.GetBall(0);
-        JSONNode jsonBall = JSON.Parse(dataBall);
-        JSONArray vec = jsonBall["samples"]["ball"][0]["pos"].AsArray;
-
-        ball = new Point(vec, "ball", -1, transform);
-        ball.node = this.ballTransform;
-        this.ballTransform.transform.SetParent(transform);
-        */
-    }
-
-
-
-    private void FixedUpdate()
+    private void Update()
     {
         if (hawkEyeFiles.isReady == false) return;
 
