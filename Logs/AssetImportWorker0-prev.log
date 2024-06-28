@@ -15,7 +15,7 @@ E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60885
+50176
 Successfully changed project path to: E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/TrickShot/Stadium/Stadium_TS_HDRP/Stadium_TS_HDRP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139764] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2275535518 [EditorId] 2275535518 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25316] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 474204056 [EditorId] 474204056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [139764] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2275535518 [EditorId] 2275535518 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25316] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 474204056 [EditorId] 474204056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-02HREB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 17.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1572.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -73,46 +73,46 @@ Initialize mono
 Mono path[0] = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityLTS_2022.3.22f1/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008562 seconds.
-- Loaded All Assemblies, in  0.333 seconds
+Registered in 0.284527 seconds.
+- Loaded All Assemblies, in  5.702 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.325 seconds
-Domain Reload Profiling: 658ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.388 seconds
+Domain Reload Profiling: 6090ms
+	BeginReloadAssembly (4041ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (340ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (97ms)
+	initialDomainReloadingComplete (327ms)
+	LoadAllAssembliesAndSetupDomain (983ms)
+		LoadAssemblies (4040ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (981ms)
+			TypeCache.Refresh (980ms)
+				TypeCache.ScanAssembly (767ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (326ms)
+	FinalizeReload (389ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (271ms)
+		SetupLoadedEditorAssemblies (338ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
+			InitializePlatformSupportModulesInManaged (170ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,471 +120,255 @@ Domain Reload Profiling: 658ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.841 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
+- Loaded All Assemblies, in  7.598 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 1.500 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.431 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.066 seconds
-Domain Reload Profiling: 1907ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 9317ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (357ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (7393ms)
+		LoadAssemblies (6793ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (279ms)
-				TypeCache.ScanAssembly (257ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
+		AnalyzeDomain (674ms)
+			TypeCache.Refresh (625ms)
+				TypeCache.ScanAssembly (568ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (1067ms)
+	FinalizeReload (1719ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
+		SetupLoadedEditorAssemblies (1511ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (191ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (925ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7861 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 142 unused Assets / (4.8 MB). Loaded Objects now: 8330.
-Memory consumption went from 389.5 MB to 384.7 MB.
-Total: 6.463200 ms (FindLiveObjects: 0.801400 ms CreateObjectMapping: 0.223300 ms MarkObjects: 3.626700 ms  DeleteObjects: 1.810300 ms)
+Memory consumption went from 389.1 MB to 384.3 MB.
+Total: 6.929300 ms (FindLiveObjects: 0.950800 ms CreateObjectMapping: 0.418300 ms MarkObjects: 3.812200 ms  DeleteObjects: 1.747100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LimbIKInspector.cs: 4a81246b898bf3e6039c504978dc9c5b -> ff4ac8d6714b8b9e9d531a560727c51f
-  custom:scripting/monoscript/fileName/FBIKChain.cs: dd061023132c80b1ec4e41c2622e94eb -> eb10c006f48bf174b6a9628f1d76eee8
-  custom:scripting/monoscript/fileName/IKSolverTrigonometricInspector.cs: 2debe3439cbc2c91af700e4f30e86e04 -> 4aff24ce066938ea7d4f8e7f2dce0682
-  custom:scripting/monoscript/fileName/FPSCharacter.cs: aefb47a9a0cece14f815cdf87dee4e1d -> 63f958d21403a009fb6ee81fdead0f88
-  custom:scripting/monoscript/fileName/InteractionTargetInspector.cs: 0f32f0b740cc34454ba6820f9c1e7bf7 -> 2c88b3b8813a8527ba2768f09a880b11
-  custom:scripting/monoscript/fileName/BipedReferences.cs: 4225a05ffe658cfc96523cdfbd683f25 -> ca8d8a792483f55ee1b8867f080bc3b9
-  custom:scripting/monoscript/fileName/SimpleJSON.cs: 918bfc973943640d4f8bf774f104f2b1 -> a3961af11e908485cf7859cf245c85d5
-  custom:scripting/monoscript/fileName/IKSolverVRBodyPart.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/TwistSolver.cs: e58dd7d4f6e44b08c273f59495342360 -> 5295ab6177aa026d359c642ec2382e41
-  custom:scripting/monoscript/fileName/IKSolverLeg.cs: dc7061e4e94e32f48d9195ddb2a369d8 -> 495060ddc4b92f11658fb152ba473828
-  custom:scripting/monoscript/fileName/IKSolverAim.cs: 459ffe4caa7903100e46f5af9a976d3f -> 296b9f05b669753ffcea6452fe6ce0c1
-  custom:scripting/monoscript/fileName/SolverManager.cs: dd51cb9fd65bd41325cf116caa9d3a63 -> da8c485354c42c9a06059270276580c4
-  custom:scripting/monoscript/fileName/MotionAbsorbCharacter.cs: 380ac4ee4bfc1cbcf877dc76ff151112 -> 7a469f19eb7495b04e78492836f383dd
-  custom:scripting/monoscript/fileName/InteractionSystem.cs: 456087fe7b0da295157994e5ab4d3713 -> 687704844b1c4928b0384a3684d18182
-  custom:scripting/monoscript/fileName/V2Tools.cs: 4d5db1d86db084c7035042399f9b2c6a -> 5d31ca797ff4ff9ff28c75f21f9bebc5
-  custom:scripting/monoscript/fileName/AnimatorController3rdPersonIK.cs: 32e624cc9516a28a016dcddc5d98555d -> e92135a4ea61fd60855cd07e674ef5a1
-  custom:scripting/monoscript/fileName/FingerRigInspector.cs: 61d362a3b49983c0d0f44c45ce566614 -> 8f34178d70657617a1a9a8c44f18375f
-  custom:scripting/monoscript/fileName/UniversalPoser.cs: b86888cdc1fdb6ca904d41f0a8ec7c88 -> ec2202c6893de572c33d74743a65333b
-  custom:scripting/monoscript/fileName/RecoilTest.cs: 530267a1b1bdebff325624b63c85bf79 -> 9861346a9b953e152a78031deb22c23f
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/Hierarchy.cs: f7a864219e6e7af3162d77526eedd09e -> 75819f1607159254afbaa4d44a8b30ff
-  custom:scripting/monoscript/fileName/Interp.cs: 130ebc422d9f7da3f36e41b8b679d00c -> 9e4f5a2b86adfea226bf338a5e0fe087
-  custom:scripting/monoscript/fileName/InteractionC2CDemo.cs: 898943e103542825a8169f62bf015436 -> d2e638af9fad4beffa685ac3c79ee4be
-  custom:scripting/monoscript/fileName/VRIKPlatformController.cs: 29eeae64f9f20e47e681b813e48e7b90 -> fdb80107e374d3cb2f9ec021c212a224
-  custom:scripting/monoscript/fileName/StylizedGrassGUI.cs: 74fdc9e8cfdf78e93dd6a8b7c1b832af -> 
-  custom:scripting/monoscript/fileName/IKSolverLookAtInspector.cs: 4b5ef9c8ded76e9de0e9a6a38d3cbeb5 -> a148e70bdc6691ab9f60dd5c1614d47b
-  custom:scripting/monoscript/fileName/BipedNaming.cs: 5662cf714cbe6e381afaadf2afdfbd22 -> b25de336366cbbc757e079311557ad91
-  custom:scripting/monoscript/fileName/IKSolverFullBodyInspector.cs: affa5eac4d8dbd74ac489cd9fb82a3c5 -> 2db5dee316dd8b8b16283cd0be991ed4
-  custom:scripting/monoscript/fileName/SaveClipFolderPanel.cs: c77ba171ce10e4faf538de9a403c627e -> c9ca0ac3f3ed045fe1d718dd78dccecc
-  custom:scripting/monoscript/fileName/LayerMaskExtensions.cs: c22d1adb18a7f4b329c6d988d2b35eb2 -> 54daa83ed60362fa337280a82d80251b
-  custom:scripting/monoscript/fileName/IKSolverVRArm.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/HitReaction.cs: a886838ea38da60593fa6a018dad004f -> 97d7f47077fe9dc292baff35734d05cf
-  custom:scripting/monoscript/fileName/GrounderFBBIK.cs: 5c1925fc99674f237b4dffdb72325abf -> cba66358abf5b2e21dc644b71d80b75e
-  custom:scripting/monoscript/fileName/IKInspector.cs: 0bbebd3051172f891055df2b285e25d4 -> 71608e267e803c5c82b581b312a1ebf5
-  custom:scripting/monoscript/fileName/PlayerController.cs: 7c322d6c5745bbcb0ba989b3d4a4a9ac -> 
-  custom:scripting/monoscript/fileName/GrounderQuadruped.cs: be6a9740c991ab3b58186418daf5b0f6 -> 392ed6b83073249cf3528023673ecf94
-  custom:scripting/monoscript/fileName/CharacterAnimationThirdPersonIK.cs: ce15e679608efc7a120c35174d72be51 -> a7ef8a2ad5f7a04c2d5542d039da3be8
-  custom:scripting/monoscript/fileName/GroundingPelvis.cs: f63c17c87e5ce8cd7363256a8a421d25 -> 0d2be06bac272cd0b4a27fc2c7a4b139
-  custom:scripting/monoscript/fileName/StylizedGrassRenderer.cs: 70515153fb81dd5c1505ee7cb745ef02 -> 
-  custom:scripting/monoscript/fileName/InspectorComment.cs: 59fcc2efa9a61c216269d87450d1b452 -> e6958fe54cac64fa30dd086d133ed590
-  custom:scripting/monoscript/fileName/BakerInspector.cs: 46ad1bb164397b0e168a8364ed3624dc -> 78a2dcc7c3d95418ccd4ceaf2c4ae32e
-  custom:scripting/monoscript/fileName/Amplifier.cs: 02d85fe7a9a2f3a476ce2508e6f4ec35 -> 17c4c9d0052e71a486da5c10e5b3ace3
-  custom:scripting/monoscript/fileName/CCDIKInspector.cs: 1f1a890a0bc22ab1a80a614e8734d690 -> ba74fc426163459aa580a4dd9c07e6df
-  custom:scripting/monoscript/fileName/VRController.cs: 3e8c3469a629ae92e6d031b15065b41a -> d7e6d1cc5464ba09905ebb227c1ca603
-  custom:scripting/monoscript/fileName/LegIK.cs: 4d354225ba557c8557f4e769cb62b6e0 -> aadedf9c2d75d836d5f2f8c24f71dcb3
-  custom:scripting/monoscript/fileName/Constraint.cs: e386dc5728d97efaa92015e7a3e7b8e3 -> b4c7e74979d187927d32efc9d09caf33
-  custom:scripting/monoscript/fileName/IKController.cs: cdf3eac3c7c2fa57c65219a4564fc3ec -> ba91d5e479a7766bc72acce62bd85030
-  custom:scripting/monoscript/fileName/KissingRig.cs: 9e14f95dd2c28195eec7967a3d6e2abf -> 6234bbc6beeefa248e29bc59b641eacf
-  custom:scripting/monoscript/fileName/FABRIKBendGoal.cs: 318bdfa6f79afa67cd99821f8a0a6c24 -> 920d824326759d9e145d97aded041178
-  custom:scripting/monoscript/fileName/InteractionEffector.cs: e7c9d5ce18e5ad63e78f04577d2d2461 -> be339e30985cf59765363bc6fcea814c
-  custom:scripting/monoscript/fileName/BipedIKSolvers.cs: 3384147f5dbcf30aa66205cfe64d3041 -> d4bf8abf2bafc231196ca8d33ddd505e
-  custom:scripting/monoscript/fileName/VRIKRootController.cs: 7527337900809c1c9100aa7a615747ed -> 63a17b099d5d95d920bd937ab96fd761
-  custom:scripting/monoscript/fileName/TrigonometricIKInspector.cs: 5c4ef546499b8ab957c5572aebff7685 -> 79d2615d0eaa47656d94b2c4e9024564
-  custom:scripting/monoscript/fileName/CharacterController3rdPerson.cs: 1c9c30dc772d6120f15a644f2bb631f6 -> 53726e974063c55b26e4eb4646dbf45e
-  custom:scripting/monoscript/fileName/InteractionTrigger.cs: e447b5b13dae426578aea5a903aa20c7 -> 85fd6703c8c8d4c146b6ec9f660bf3be
-  custom:scripting/monoscript/fileName/FBBIKArmBending.cs: 4a12ae87806587497397b79bc0a964cd -> d332de8f6560fbf4408c4c35593741b9
-  custom:scripting/monoscript/fileName/InteractionDemo.cs: 752d62990066ca1491431f97013f468c -> 2b1013323ad5a1f72f1a33ad4b93636d
-  custom:scripting/monoscript/fileName/PickUpSphere.cs: 72ee1217a3e9efeb7bac1b2819a59040 -> cd05d65c408d4f0a551689937d4b4ba9
-  custom:scripting/monoscript/fileName/IK.cs: 2291e6bfa00b90d6634ca8a1aa51e07d -> f9c3c8baea3ed04e3a08a16362eb7966
-  custom:scripting/monoscript/fileName/SlowMo.cs: 094b532425568248d1726acbcec87eb7 -> 8309af34498e56e75082f34941dc4626
-  custom:scripting/monoscript/fileName/MechSpider.cs: 7bd704a69534a2e011020eec850b43a5 -> 72d5f0fc4eecdbdf1893fff7fe5c07c7
-  custom:scripting/monoscript/fileName/IKMappingSpine.cs: bda7eaa6383876bf6e8dad7bb320d78c -> 8550bdda561e39b2880552ab3a6ee1f5
-  custom:scripting/monoscript/fileName/TwoHandedProp.cs: 1bdef237d4e711364c0b19304a67bacf -> c375929e94ee7a0388833c77301cf21b
-  custom:scripting/monoscript/fileName/ConstraintsInspector.cs: ba7a25471cabd996064216a8d58df018 -> fdbb06a800c54f73414c75f73f937bb6
-  custom:scripting/monoscript/fileName/RotationLimitAngleInspector.cs: 5defea66fec3c50f028f848c8ee589a3 -> 034cf3f080d768ea79ad9a9c65c292e6
-  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RotationLimitAngle.cs: e7a7aa335f7dffe3124a2a81d160d8a9 -> 5580ecae8a14031f5a44be46c354cdf6
-  custom:scripting/monoscript/fileName/AvatarUtility.cs: 1f8902f7052c80cfec333caf48deebaa -> 545b00487eb45bed766fed8ef73661c8
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/HumanoidBaker.cs: 11a74b52a44a5d79afc2227c2070a3dd -> 10f62305b2bba8ed20b115f8ce1682b4
-  custom:scripting/monoscript/fileName/FBIKHandsOnProp.cs: e09dd0be1fa8c71b3f13d221d0c9397a -> bfdffc53604c04ed34a210109a69a68d
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/GrounderDemo.cs: 88db8dd6a9f06e8defcdd614e3c30c78 -> a36c9f29120cc6f4f906c65a90d4b906
-  custom:scripting/monoscript/fileName/PenetrationAvoidance.cs: cd694e6eea6ed3ff718bb277e8851d84 -> 7b26ab0041a57683978fc8a0243918c5
-  custom:scripting/monoscript/fileName/LookAtIK.cs: b6aa10cfa1c41c48ccee8d9808bbac7d -> d54026c1311a1d918de80aab3182ac4b
-  custom:scripting/monoscript/fileName/IKSolverLimbInspector.cs: f8cc8199c189a6bd8ad43b4ad27689c9 -> 3a25410d9f4be5711e1df38ee7239689
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/CameraControllerInspector.cs: ab94c5b7be40781366885fb923e2fd9e -> 47a5284ab43209bd8dd478df7886c24c
-  custom:scripting/monoscript/fileName/GrassColorMapRendererInspector.cs: 99b19e19a2a301aaec6da4bf51169ad6 -> 
-  custom:scripting/monoscript/fileName/TriggerEventBroadcaster.cs: 6792b8acd0ac32b7e2c3913b607dc7d8 -> a6dc9c5cad215ca3c0c5b9f5b849b2d9
-  custom:scripting/monoscript/fileName/VRIKPlatform.cs: 98175a171d01012d317e2bec96222fee -> 7f7e824bbc1629b0dbf534ee3e98dc6e
-  custom:scripting/monoscript/fileName/EditorIKInspector.cs: 86915061c73e73651554729280384cd9 -> 6fde9b1a07036644e4d9da15fc2acdb9
-  custom:scripting/monoscript/fileName/TwistRelaxer.cs: 1116d44e24789a516646c290c03885e8 -> a58bd192f67f550f6f95dfe5dc6ed17a
-  custom:scripting/monoscript/fileName/IKMappingLimb.cs: a4f8ed78e60b5cfe0e667955a5752906 -> bf9acd80126b76d0187f2936a36e69a3
-  custom:scripting/monoscript/fileName/GroundingInspector.cs: af70e9ce839c2a3ac73ec608fadb4323 -> 732f1adeefcf686b734bcd86b02b50bb
-  custom:scripting/monoscript/fileName/FKOffset.cs: 30381c344cd339ffc8843c0684176c39 -> e7968373015bf3b9e045c9780a584fdf
-  custom:scripting/monoscript/fileName/PendulumExample.cs: b43b22bcef7505b964a34ef6919ee05a -> a2a75e3219abd5fd32f57fc3bac673a4
-  custom:scripting/monoscript/fileName/EffectorOffset.cs: ca9ad1ebcd95094bcf7f22eab43b45bd -> 700c602e89f5ecf817de779e72a71db2
-  custom:scripting/monoscript/fileName/RagdollUtilityDemo.cs: b5cf07a72df97f0a3a69d2997c996a63 -> e3627964fa25511aa48e3fbbc3402605
-  custom:scripting/monoscript/fileName/IKSolver.cs: d3d3ed78143777e8d659249b03739c5f -> 888674f7eba32ebb3b1ae7837fa7ec8a
-  custom:scripting/monoscript/fileName/FullBodyBipedIKInspector.cs: c1cd8dd1723c041169e2f395d1a141e3 -> ecf4cffb616a4c024386b3610bb64925
-  custom:scripting/monoscript/fileName/IKSolverVRFootstep.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/TransferMotion.cs: a5c9101cd86ffd8ce4e0c23e701a9de8 -> 9d56fb325958adf5335be3e39d004f39
-  custom:scripting/monoscript/fileName/CameraControllerFPS.cs: a28a602c026360ff1078d2236a19ebd1 -> b09f39cc484941972968163f7a35709f
-  custom:scripting/monoscript/fileName/CharacterAnimationBase.cs: ec5d679ccf6ba7475f25d6ca44e91563 -> 1e25fc3f55ff57174ec36f878e89f8aa
-  custom:scripting/monoscript/fileName/FABRIKRootInspector.cs: e806000d401a9a031a51775ad3cde3c9 -> f879044279c749823a81cf25487bc397
-  custom:scripting/monoscript/fileName/VRIK.cs: 6f990075efe6870301ebdce5d96fb484 -> 925d181a23eaf68826801384c2f0ed4d
-  custom:scripting/monoscript/fileName/Inertia.cs: 03ee98669e6305c78f7e999e10d808f0 -> 73468ba23a2d1422bc820827944e239b
-  custom:scripting/monoscript/fileName/GrounderIK.cs: 48b6bcd85526bacd6a7f496d6a42e0ef -> c09984a185b32122399871a071ccb57a
-  custom:scripting/monoscript/fileName/GrassColorMap.cs: 379587f234097503a4298da0685a3955 -> 
-  custom:scripting/monoscript/fileName/BendGoal.cs: 58199e2eb932ec2485d2a53807970359 -> 86ba13b5d48852ca750d3e9d65aaa809
-  custom:scripting/monoscript/fileName/IKSolverHeuristic.cs: ad4ac7d957556e97394b704a51748917 -> 8fd2a6f8a7686f7c7124123d8d8189d1
-  custom:scripting/monoscript/fileName/IKSolverInspector.cs: be686433ef3b7f763c6611126f4e54b5 -> d1e317228c07f0cc664f3fd518e4ae33
-  custom:scripting/monoscript/fileName/OrbitCamera.cs: 1dc909ec0bf96889998db9f44e269977 -> 
-  custom:scripting/monoscript/fileName/SimpleAimingSystem.cs: c9db892ad8470852bc7c561808ef09f6 -> 41526252b8e8af00b2c99e0c5ed51c5a
-  custom:scripting/monoscript/fileName/MotionAbsorb.cs: e95a30b8db20d7263b8829713342f530 -> eb112b1e1497edf46c2c092556ad12a7
-  custom:scripting/monoscript/fileName/OffsetEffector.cs: a8334abbd7d930a0bf79092c8f079b9d -> f074203329d488ade3d77158da30e7ad
-  custom:scripting/monoscript/fileName/Baker.cs: 049e83b83f35c23d78905ec4991552bd -> 232da18ea1e66e682f0711e036280c59
-  custom:scripting/monoscript/fileName/FABRIKRoot.cs: a4947a99ffec43e387a4d5bd77cdb6d7 -> f34086239382dbcdc225990648e748a1
-  custom:scripting/monoscript/fileName/OffsetModifierVRIK.cs: 0ea8f0833dc8e098797951e14bb9d645 -> b553811b29fafdea864fc56e36bfd1a0
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/IKSolverVRLocomotion_Procedural.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/AxisTools.cs: 1c2039369dc2f1331d861cc3c362acee -> 2b3a18360b8bc2a5938801161108227f
-  custom:scripting/monoscript/fileName/MoveInCircle.cs: d92156f752d7131867c7834adff8acc9 -> 
-  custom:scripting/monoscript/fileName/AnimationModifierStack.cs: 277e603d509469ff7b15a9df432afc3a -> 5430bc8d5f561309dd20a5c0594d290e
-  custom:scripting/monoscript/fileName/FBIKBendGoal.cs: d4be11aa6ce1dd0a32fc7b81bc220bc2 -> 027fe517b55ae06b8548e19ae10a4b75
-  custom:scripting/monoscript/fileName/IKSolverFullBodyBiped.cs: b531065542baabe90290fa8a8ae102bc -> 863a140ae3c1968e8594193667e34125
-  custom:scripting/monoscript/fileName/RotationLimitPolygonal.cs: 146324af91c3f783e59b6ac06b06cf58 -> 16f58c910e10fa9fb406a190f4f14ea3
-  custom:scripting/monoscript/fileName/AimIKInspector.cs: 705f4a34e900ba23695c424869e54b9f -> 6dcc99d081aa0b1b9b103fb94fb9a3f8
-  custom:scripting/monoscript/fileName/IKSolverVRLeg.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/SecondHandOnGun.cs: 71f6fad86218eb5e44a92bb964060c95 -> 635c32b39a2788627fd5ffe460a33362
-  custom:scripting/monoscript/fileName/IKHelper.cs: 9f49e34a59425ffbe7cc170111286333 -> e8d0d48fda474d898ceb5d320efbba96
-  custom:scripting/monoscript/fileName/AimPoser.cs: 84ccd162677a12288692efce12aca8e5 -> 4a292d0b3612a3d85e56262019515847
-  custom:scripting/monoscript/fileName/AssetInfo.cs: fd1937f8384a0d592c1c2f33d09be3bd -> 
-  custom:scripting/monoscript/fileName/Constraints.cs: fedb57e01cf7406f6e686c57be0331a5 -> 9f29e098d739f81311dfc8ffae05936b
-  custom:scripting/monoscript/fileName/AimController.cs: ab52dd25620fb6bbf0684b30ac99858f -> 13505676f3ce79a63617cd4cdb4bc6ad
-  custom:scripting/monoscript/fileName/IKEffectorInspector.cs: 5536dd003af5ef2bf3e963f58b7da256 -> 1655c6fbd4fc5c8a27c1ea10a7fc1afb
-  custom:scripting/monoscript/fileName/IKSolverFullBodyBipedInspector.cs: d489f821dfd0f98384a30270c47bb0d4 -> fb19b52f2c0aa9e90ea289cfdf44e530
-  custom:scripting/monoscript/fileName/ColorMapRendering.cs: 278999736039af9dff001827c8d5b1bf -> 
-  custom:scripting/monoscript/fileName/VRIKLODController.cs: 8a3e80c3d4afd6c400928d4625c39e70 -> cad772aae949ac828011c11c6fcb9645
-  custom:scripting/monoscript/fileName/FABRIKInspector.cs: 88a147d48719765eb85e231f3418c41e -> 25f4e71e1bd1b97ab183e2bb5e4938a6
-  custom:scripting/monoscript/fileName/IKSolverLimb.cs: 88d861260d31c8af5661559ed09f8cf7 -> 82a138c386aa24a96456c6cd36f27594
-  custom:scripting/monoscript/fileName/GenericBakerInspector.cs: a001781d70c4174e4de92891fc281f0d -> d785b72dbf4c7be0e433c27d8a426cd0
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PlatformRotator.cs: ab26076014dedd2f5bfe12bc1e05730f -> ba3b0132abe98231b01f06152d635eda
-  custom:scripting/monoscript/fileName/IKSolverFABRIKRootInspector.cs: dd22165642368aa4c4003129a3f7fb76 -> ad6ac6b228d42eb3a5e271a57e6898e4
-  custom:scripting/monoscript/fileName/BipedIKInspector.cs: 8bb70da5ba64f5c7c7b13df81baf413e -> e227a46e299eec60728adbafb0a5586a
-  custom:scripting/monoscript/fileName/IKSolverFABRIKRoot.cs: eedcbe7750d70084b4365b6ad30ee081 -> 628eeb3e6a513067b569dbf497e4d55a
-  custom:scripting/monoscript/fileName/InteractionObject.cs: 8737639194118dee355a61d77ef6738d -> 5264a75fe9bcdf2553c1d2b6345691ad
-  custom:scripting/monoscript/fileName/IKConstraintBend.cs: 557ab13dc29bdc4267adecae4b4f493c -> 4c510286f1709de05bdaec156ec15471
-  custom:scripting/monoscript/fileName/ConstraintRotationOffset.cs: 591e4357755410fa2623972161a3c346 -> 488ddd6e0f2b7d00d878e82ca3cfc0a4
-  custom:scripting/monoscript/fileName/PropertyDrawers.cs: 23f60ca7ac7b291f9d87a9f202146742 -> 255520ae57a9747de2bffba30354d264
-  custom:scripting/monoscript/fileName/GrassColorMapRenderer.cs: ccec40facae33a82d73500877597e9d3 -> 
-  custom:scripting/monoscript/fileName/ShaderConfigurator.cs: 699a888b119cfd9c2b0878bfe7a608fb -> 
-  custom:scripting/monoscript/fileName/CommentsInspector.cs: eb99fabb63fb45f29e0f855ad2e5f550 -> 975631ba717a467173baf98b48cc8afc
-  custom:scripting/monoscript/fileName/GenericBaker.cs: cdb410fabb97570865306ae7864c60a3 -> b51e715d9288d30766210c59d144bc29
-  custom:scripting/monoscript/fileName/AnimationWarping.cs: 76aa9d8b2a440b945427f49fb6d154ae -> 1299eec26249efce44fdcfd49b8d6c0b
-  custom:scripting/monoscript/fileName/RotationLimitInspector.cs: f51994e3acdb40b97e2d9bde62510c6b -> 5c08c16722aefe1fbb4f402434fed8c3
-  custom:scripting/monoscript/fileName/PropertyAttributes.cs: 23b6c6242457063bb8871dde78effa2b -> 18e92dee6d5da9647e64a64742fbcd35
-  custom:scripting/monoscript/fileName/BakerUtilities.cs: df52dbb728af0f53383672bc0d6c69af -> 663d1331a456f9196357d1d8f3bab3a9
-  custom:scripting/monoscript/fileName/FBBIKSettings.cs: c57de20b4d3be2d73f9165b0dd3c929f -> e627816811d23ba567f594cd46ea15ce
-  custom:scripting/monoscript/fileName/CCDStretch.cs: 49b99ca8160a83c31d985abb972283b1 -> d114692a9e3f00f95132fe255dd29d59
-  custom:scripting/monoscript/fileName/IKSolverVRLocomotion_Animated.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/TouchWalls.cs: d5d3360b76b3594de9263799d37424b2 -> b1cab717e112278d6fd9f658479cc888
-  custom:scripting/monoscript/fileName/GrassBenderInspector.cs: daa4a8648961a834c9aeb4a0c3505305 -> 
-  custom:scripting/monoscript/fileName/IKSolverFABRIK.cs: 5cdfe3e698bd1562997565953fc89a7e -> 953379c623a4dc87b87b0f083b0568da
-  custom:scripting/monoscript/fileName/FullBodyBipedIK.cs: 75027e28ce0fc4b84ca6af85e5bebd51 -> fb41585cda1f291354dc4e1742ab499e
-  custom:scripting/monoscript/fileName/SerializedContent.cs: 7eb1a1c292fb5b9a844e702e4814f708 -> 2fcac036b8f11784f8029a2104e373bc
-  custom:scripting/monoscript/fileName/UserControlThirdPerson.cs: 2464fcb7422edf9ccd48be8722f99c3c -> eb92b7dcfded1d56f5064ee5763b4763
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:scripting/monoscript/fileName/CharacterAnimationThirdPerson.cs: 837cd78bbd9388e36a7bf42bd92f0733 -> 8880328945612101a92e29beb6274aff
-  custom:scripting/monoscript/fileName/PickUpBox.cs: 60325ea755a157899d189d52f9f2c6eb -> 602487440c895672eb1b903e01b1c992
-  custom:scripting/monoscript/fileName/IKSolverVR.cs: 1287466355fca8dd88213279cdf2e61c -> 9d19d95db307b8295eac250081439639
-  custom:scripting/monoscript/fileName/CharacterThirdPerson.cs: e6fa1ff43062910b0efb1322eea9a592 -> e59e8db59d2187938c8ed9d41750fe18
-  custom:scripting/monoscript/fileName/InteractionSystemTestGUI.cs: e9ffcc70d50b6d03ccd4262013d32091 -> 89ee534ee69d86ad7634c4d1d814581e
-  custom:scripting/monoscript/fileName/BodyTilt.cs: 5a9b19ee4554c075d7420d025c84a060 -> c39f52676099447816607e2dd3793c83
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/StylizedGrassEditor.cs: 8abbc106f0bd289655219b5bab296b24 -> 
-  custom:scripting/monoscript/fileName/DemoGUIMessage.cs: 363fafc21a2279c450864b7902fa3def -> e7e9a7a48bd483868e4a3ad3551588bc
-  custom:scripting/monoscript/fileName/PipelineUtilities.cs: 94a98354c430080a795d97644c98de7c -> 
-  custom:scripting/monoscript/fileName/MaterialUI.cs: 3fe7696f33534f47df2ff4ece834a531 -> 
-  custom:scripting/monoscript/fileName/IKSolverAimInspector.cs: 8d536676cf53401d327bac5cad020c87 -> 2b00a7acd579b127e442d29f8240ec7c
-  custom:scripting/monoscript/fileName/VRIKCalibrator.cs: 7ee5d60a0faaef1f2083af18003f7409 -> 2886d9b205a73caf73112d61b1cecc81
-  custom:scripting/monoscript/fileName/RotationLimitHingeInspector.cs: da34eae2a7a9064f11634bd5a8e19cd3 -> ae29f53ed6defd8c8d2e3b93d9af4d08
-  custom:scripting/monoscript/fileName/Recoil.cs: 7bd040e857af3daafbb2f8be75c69b95 -> eaccff0776081773c75a4f299ac811aa
-  custom:scripting/monoscript/fileName/OffsetModifier.cs: 938de10dd39c830510353e5eca4be87d -> aad906655c8382a1e20c50ce64669e49
-  custom:scripting/monoscript/fileName/ColorMapEditor.cs: 420aa57c9d6cf045a13f735fdd2d4073 -> 
-  custom:scripting/monoscript/fileName/GroundingLeg.cs: f63c17c87e5ce8cd7363256a8a421d25 -> 0d2be06bac272cd0b4a27fc2c7a4b139
-  custom:scripting/monoscript/fileName/MechSpiderController.cs: 9fa17047f62019c951708b8fb4deaace -> 20cb627a76b10a199d8028c9eed09eec
-  custom:scripting/monoscript/fileName/Navigator.cs: 56fe3f0a754e26f149be9c19a23c1622 -> c28e6d087ef3dd63550f8d4a4ee485a3
-  custom:scripting/monoscript/fileName/AnimatorController3rdPerson.cs: 676788bb516de3790958d1f2a0f7f1c1 -> 1a6cd962b17cd17b211d41b07f06070d
-  custom:scripting/monoscript/fileName/AimPoserInspector.cs: 9935b5d80b4e799dfd025e4d714eb827 -> e90337aae6c739d01b974252c874d052
-  custom:scripting/monoscript/fileName/GenericPoser.cs: 7647c0ff3f68557468ff750f032749bf -> 509dbd1e03038e8033acd0ddc56a8930
-  custom:scripting/monoscript/fileName/LazySingleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/LookAtIKInspector.cs: 930206d6b4bc06cd7d2fe16c87c4cc94 -> edd264e4643096549e3ffbd4b5a7f0c3
-  custom:scripting/monoscript/fileName/InspectorCommentDrawer.cs: 9f5ebde1b59d6be9c539c6e2efc05854 -> e2fe43efbfce972d1b0a4e4ba7ae2731
-  custom:scripting/monoscript/fileName/FABRIKChain.cs: 96813e6f85520618a2200003a443a23c -> 4d14867e038f60c169e41bdeb1a07234
-  custom:scripting/monoscript/fileName/BipedLimbOrientations.cs: 895e4c0672231706201e0136a910d3c8 -> 375b20745cccbe05f3ea3788424053b6
-  custom:scripting/monoscript/fileName/IKSolverVRSpine.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/CharacterAnimationSimple.cs: 22c2dbd3016d68370672d65966e7b81c -> 8093c3d501918f5ab9466e4d6d51ee0d
-  custom:scripting/monoscript/fileName/Warning.cs: 6351984a02fed7e9c3043c19dc437515 -> 909b93e46896045f337745e7da426d76
-  custom:scripting/monoscript/fileName/RagdollUtility.cs: fde9bb2087ddf2acee0104eeac37e654 -> f093eab15a5ceca86616d72dd087dae7
-  custom:scripting/monoscript/fileName/FBBIKHeadEffector.cs: 656c1032a0346572468ad080e63bf684 -> f7402f88a0d2191f05f907fe3f2c6d86
-  custom:scripting/monoscript/fileName/IKSolverLegInspector.cs: ab67854eadabdff66cb7e99f71070280 -> b92739daf8440a64ed20424bc17be3a9
-  custom:scripting/monoscript/fileName/ExplosionDemo.cs: cc213d53088cbcc77c19ae158e6fcfbe -> 7223f7eca40c008fc0e0d96d019003b9
-  custom:scripting/monoscript/fileName/TerrainOffset.cs: 08a972305288c88897ea027bfe150af2 -> e37043575eaf0378517f8e1773a2d88d
-  custom:scripting/monoscript/fileName/SOBoneMap.cs: d57e7201b5dd000c1310200a97bad54b -> d22cb4a268fae03e99492af3fcfffad2
-  custom:scripting/monoscript/fileName/Comments.cs: 6466840a17b027123f97a771d749afed -> 470f746abb76094fd4c65c318145fb0d
-  custom:scripting/monoscript/fileName/ArmIKInspector.cs: 646ecb9a44c79bb5c1d44f1a47d2b101 -> f9f5a9bd0c29a29af94da41c20b38677
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/IKExecutionOrder.cs: 8b5b166e409812b302ea26f1716932aa -> 85e898b76fe71583c0bff070a07164a6
-  custom:scripting/monoscript/fileName/InteractionTriggerInspector.cs: 363d9e2f19e2b22155321bfc592341e7 -> e5a079b187a7346465c9cc619a43efaa
-  custom:scripting/monoscript/fileName/VRIKCalibrationBasic.cs: aefac30aa58757e7be1755c9af23f906 -> 525a730b7212a138229f433a2c9708e5
-  custom:scripting/monoscript/fileName/BipedIKvsAnimatorIK.cs: fc6d096a2d8df75b6f009d53047fc4c9 -> 9b1e62227a554832c73e74b8afca8ad0
-  custom:scripting/monoscript/fileName/IKSolverArm.cs: 00864d76562129e520026639ccc0c6d7 -> 0a4f6efa66cae7a2a1db6287f47335b0
-  custom:scripting/monoscript/fileName/EditorIK.cs: 2a58cdeddf967ee48f2b977e539bd9fa -> a8cc2e7c0436a69eddf5ae9fadca2566
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/RotationLimitSpline.cs: 3cfb72e0b6f0baceace50fe3852e2890 -> 7ac74b98dbd1e3aa7938a1aaa9fe9319
-  custom:scripting/monoscript/fileName/HitReactionVRIK.cs: 9e237e991d10d7a416c4307967401f4a -> 6cbac8a851a7135779ea738f5dfd7960
-  custom:scripting/monoscript/fileName/BipedIKSolversInspector.cs: 425dac2125a6c6e32b2fb8f87af841e0 -> 65abc962198e0a20fbdaeedc1b5fc2e9
-  custom:scripting/monoscript/fileName/IKExecutionOrderInspector.cs: 7850f96e6f3cdcb8e6137478c1cf0770 -> d1908889af548d0b1022dc0714eda747
-  custom:scripting/monoscript/fileName/AimBoxing.cs: 5c7e289ca203fb7895c39a554facb6c8 -> 1f06b426efe2ff01086d5b51729215bb
-  custom:scripting/monoscript/fileName/Grounding.cs: f71df8ff260d67f9eea959c5e57cae03 -> 59a6165f80fd97216f3e5ce5e9d8e36a
-  custom:scripting/monoscript/fileName/ArmIK.cs: ce47f27ea5924cc699267b8810aa333d -> f15d6cc6c574ae2bbcf71c7d6d4aece4
-  custom:scripting/monoscript/fileName/HitReactionVRIKTrigger.cs: daffe61394dfcb6f0de7bf09a10d717e -> d12ff89062cf69854497caa505c5c57e
-  custom:scripting/monoscript/fileName/UserControlInteractions.cs: ffe292fedeea8e9689ad14884c6caad7 -> e1066a73e31f7668faa3ff1afa82fa7f
-  custom:scripting/monoscript/fileName/IKSolverHeuristicInspector.cs: 422872f7db9d956d7a4368b092b62ae0 -> 847bba09c48118af6568c1dea6ac6ddc
-  custom:scripting/monoscript/fileName/TreeDrawer.cs: 9acb7f805a5383a4e138d25ec0ab6774 -> ac50a1176d74f4fdfb7aba043e0f6054
-  custom:scripting/monoscript/fileName/AimSwing.cs: b189e469555e4af4d3e5f5b143eb8186 -> 0d737f46a4ba40821915b89e8e0039d8
-  custom:scripting/monoscript/fileName/FingerRig.cs: 783f926cf7aed2e4b32db8376bf0fd76 -> 415a71f3a1c487b45e733afc5eb2efb6
-  custom:scripting/monoscript/fileName/IKSolverArmInspector.cs: f6c3899e36d70a39dea1f32cefb03a02 -> b74fc11c3d9b5cf5f536a50e70c3967b
-  custom:scripting/monoscript/fileName/EditorIKPose.cs: 2d785ba6e39cc11dbcefc9179d648fa9 -> 9d5def48a9c3cf81c1701078c8e9f806
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 493eb65664149dd9c361604648e6852e -> 66baec14b6dbe964a9b3485883c6e5a5
-  custom:scripting/monoscript/fileName/SoccerDemo.cs: 63c5c71ef66ed29a4575046c94eba893 -> 609c91f21fcdd3119798a673a9273084
-  custom:scripting/monoscript/fileName/PickUp2Handed.cs: 8b7dd2b252c8d7e0b400ed1c27555114 -> 568cd40beb0a6952069f7cef5ce13fd0
-  custom:scripting/monoscript/fileName/ConstraintRotation.cs: af0e16a5ea40dd76bd9360de9863b028 -> b9f894c8b03a49b7913ad21f1ca4558d
-  custom:scripting/monoscript/fileName/IKSolverVRLocomotion.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/ConstraintPosition.cs: b56e1380206711fd3f093cda24dbdcc2 -> bad75ef28c0460dca6ff582b1438d41c
-  custom:scripting/monoscript/fileName/IKSolverVRUtilities.cs: a353df66f82ae2f5e2de8785d0cbf6bd -> 146b3a2b9e04a226d3615854f7cabdcb
-  custom:scripting/monoscript/fileName/GrassMaskingSphere.cs: d2787a0c9df23ba77e1171c6df5da812 -> 
-  custom:scripting/monoscript/fileName/OffsetPose.cs: b8773d6d13dbfe1e37aa18e881ab4b40 -> 51eb0e7133925a01456651e98e2c6688
-  custom:scripting/monoscript/fileName/IKSolverFullBody.cs: 592bf36d567d29ea8d1b0d07b0f8c943 -> 49e0246a219a73e453b6dc59907bbe96
-  custom:scripting/monoscript/fileName/IKEffector.cs: ed0d17c6b2011a5fdf77570c9c5cd72b -> ad183ba53b2698dc7288d55a45ceacd2
-  custom:scripting/monoscript/fileName/ColorMapInspector.cs: 0d779ad3e7d131b986d6d35b05767447 -> 
-  custom:scripting/monoscript/fileName/Turret.cs: d53af296e1e6ebc33e54c2f5d6b49caf -> aa0741e11eab6a26f978a52c119727c9
-  custom:scripting/monoscript/fileName/HandPoser.cs: 1016dbf643d300fcdd122345c263351c -> 8b1ef90b2e60487f259d578c40ef0f90
-  custom:scripting/monoscript/fileName/BipedReferencesInspector.cs: 8ff067473faff70ff9202886c00c3a96 -> 98cc830f93cfd506adc09efe60a327f1
-  custom:scripting/monoscript/fileName/ConstraintPositionOffset.cs: 89c363cadf712d7e76f8004b213227a5 -> fd9459a4c38f8a719145b182b4b30b7b
-  custom:scripting/monoscript/fileName/BendGoalInspector.cs: 1e0982cb1f7c5ad723b5877fbddb0a48 -> 164cf7d63f71219ec0c73e0cd90d3c19
-  custom:scripting/monoscript/fileName/FPSAiming.cs: 799128f251cbbf517e38fe448fef87af -> 0ebe2a3e017d9a40a911b144c5ad4037
-  custom:scripting/monoscript/fileName/RotationLimitSplineInspector.cs: 5359e25dc3ec588b22ded9fd9d2c208d -> c39579931a82fb8ce8955842640cd718
-  custom:scripting/monoscript/fileName/StylizedGrassRendererInspector.cs: 602eed6d38479011e3d603ca3aac4068 -> 
-  custom:scripting/monoscript/fileName/HitReactionTrigger.cs: aa7c0c39781ba8aa8dfc8804b262b2cf -> 530e120b3cbb5dd0edcb368dbd4c2e80
-  custom:scripting/monoscript/fileName/GrassBender.cs: 8e1d2bdbe29fc7492def4d9898b89006 -> 
-  custom:scripting/monoscript/fileName/FABRIK.cs: 18247fb68b23ff9fd9358ae4d83901db -> 6b92ffaa52b365561cdd4dccdfa18356
-  custom:scripting/monoscript/fileName/AnimationModifier.cs: 28b3a3087c829c043f1c41b1cffa6d27 -> 3542a1cf1696056a2db06c50c2ef3453
-  custom:scripting/monoscript/fileName/HumanoidBakerInspector.cs: 3b81bcfab64ae557481e564e652cf4b0 -> 1f8282f4fb57108a876c5cc98bb29926
-  custom:scripting/monoscript/fileName/CameraController.cs: d80a15bbc99626f6b139ef5d45239be7 -> 53e51d3ea494b72c39a6ddf12eaae003
-  custom:scripting/monoscript/fileName/RotationLimitPolygonalInspector.cs: 4ba171cdad3d70ba48ebeadfe3ca89b0 -> e95c691fb74026e7342f0c54a530e2d2
-  custom:scripting/monoscript/fileName/LegIKInspector.cs: 8e40cee2ea77c68e5d7ceb42f7ecec30 -> cb26cffecb9adb694ca7bae54c6ebd60
-  custom:scripting/monoscript/fileName/InteractionLookAt.cs: fb953ed3ae5dfd91a932cd0b13ac3975 -> d302bfd8b65be30db410f7d4faeb43f2
-  custom:scripting/monoscript/fileName/MechSpiderParticles.cs: df4b6dd394cd286a675a32e1433a10b6 -> b647d961c6061898ea2007932e933ac9
-  custom:scripting/monoscript/fileName/LimbIK.cs: 63a382e95e93feffe78c2704d0e85634 -> f0cbf54fdfa7e6c1ffb4deb4caaa28a0
-  custom:scripting/monoscript/fileName/VRIKInspector.cs: 066e8b5a42e61a7167f405606953418e -> e5d34d55981ee1d8d8489005c5a9ae38
-  custom:scripting/monoscript/fileName/ShoulderRotator.cs: e65f895115dd59d9eea63ad93168f9dd -> f5823737a3f2b8cbefc9c1097d6d9ab6
-  custom:scripting/monoscript/fileName/Poser.cs: 2965ff8385bfeec4cc3845659c56019b -> 60b2db2a53d5c6766c315bd9c024fb4d
-  custom:scripting/monoscript/fileName/VRIKArmMocap.cs: 7cb59ec1a8f59a1f3ba2dfbda0109325 -> b19a6f78a37593ee1b53f8d6e3a90e38
-  custom:scripting/monoscript/fileName/UserControlAI.cs: 099f0c60832f6a0d99dec81b53adfd33 -> 25588296b9e89153119b862f653d9451
-  custom:scripting/monoscript/fileName/AnimationUtilityExtended.cs: fad83a916c8e271ff963bfe4ef09a447 -> b5b0aaeb846b4f3539666a009fc22cd0
-  custom:scripting/monoscript/fileName/LookAtController.cs: f8905d38cba04bb656c27bcda47930d3 -> 3123ebfdbb5a8596d1799aa57e9d5e05
-  custom:scripting/monoscript/fileName/VRIKCalibrationController.cs: f2e202ad79825d6d990727c8c39f0eea -> 027b11ebcfdc70df8f53f6d85ea61257
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/SimpleLocomotion.cs: fe4cfc482c15ebb21b81a7b327a8543e -> 41cb0df8a3e3c3dee12b8977a83576c5
-  custom:scripting/monoscript/fileName/ResetInteractionObject.cs: 282e072e1a6db5f0189d244dade6510c -> cec77246ae5a34d3b1b52ba7c11a1f43
-  custom:scripting/monoscript/fileName/InteractionTarget.cs: 9c5226a7ba7e90efdf9640b83269b0c5 -> edadf77e5a7e2371c8f713ebfed430ae
-  custom:scripting/monoscript/fileName/RotationLimit.cs: aec2c790e0404c0cf87c899e77fc201d -> 191df1a1b93ff721848d220c183b561c
-  custom:scripting/monoscript/fileName/IKSolverTrigonometric.cs: 2a9f97efae360176f4da67610da7e288 -> 3a04c78da504cce4e79251c9289040ca
-  custom:scripting/monoscript/fileName/TrigonometricIK.cs: 6caa696d2dfa936b116cbf39efa8a895 -> 2b1096861afaf284dc508805ff9d3f72
-  custom:scripting/monoscript/fileName/IKSolverCCD.cs: 1270e6292b9be6737bf447035f35c826 -> 94e7b1071761e6489d942a5c077373f7
-  custom:scripting/monoscript/fileName/CCDBendGoal.cs: 93990bd171fc0d354eb04d5db0760acc -> ee1492d2021e6e0c3542f07077fb82e1
-  custom:scripting/monoscript/fileName/FBIKBoxing.cs: 745882a06bcf9b771d84fbc40c79e176 -> 4c1bd5b1be0e232696b58b2dddffbf1e
-  custom:scripting/monoscript/fileName/V3Tools.cs: 7b220e00bb036e44adeb54ae4f193654 -> 765f809c0d231491ee7bc4aaa5547304
-  custom:scripting/monoscript/fileName/IKMapping.cs: 1d8281c3888a202d919be0a256b5a3ba -> 5e9bbb44a6ef92f993976bc4d4d53311
-  custom:scripting/monoscript/fileName/IKSolverLookAt.cs: ecaac322800157cd1e3b8cb8724ea620 -> 794b7f407885687607c64fb2cd7c0896
-  custom:scripting/monoscript/fileName/QuaTools.cs: b5114d6897273854a305ceb2cd3f70df -> 0e0a8eef6b7d8982d66952f78da403e6
-  custom:scripting/monoscript/fileName/BipedIK.cs: 0450fd11f580b01ac41417ebb4381ebd -> 83f35c88253e28f09038eb30e898e7ed
-  custom:scripting/monoscript/fileName/JointModule.cs: 1ea5fd0fbb21c113ce323101a446afd8 -> 1028c0a1c8bb340302ecdff30f61cdc0
-  custom:scripting/monoscript/fileName/Grounder.cs: f1eadd96543226fc644ed16a62654b47 -> ad02fc8df3122a1589ccb9f31249b00b
-  custom:scripting/monoscript/fileName/GrounderBipedIK.cs: fcd7010f44231da82bb4d399abbec6ec -> 69ab18e9666fd7252d47fd5f01f31147
-  custom:scripting/monoscript/fileName/RotationLimitHinge.cs: 6fa5db5123af5cbe5f62d0128437c732 -> bb480cbd2ebd4f3073bd54209b53f374
-  custom:scripting/monoscript/fileName/HoldingHands.cs: 5c4a1481f0f178b34699e2fe3bd772de -> 084775a0be8109ca7f49f53195c11f2a
-  custom:scripting/monoscript/fileName/MechSpiderLeg.cs: 606849d991cbccb76c62e60284f80eb6 -> 9eb40c332893961730880e136066fc9c
-  custom:scripting/monoscript/fileName/IKMappingBone.cs: 794156f2ce2e3459786c74132fb3e969 -> 33f433e6a6dd471feb6fa97b0eb12558
-  custom:scripting/monoscript/fileName/AimIK.cs: 78bfe5c0e1b336f1aa06f55fcd8e73a2 -> 7f2756c5af7dd2e3f8828d7d21456c22
-  custom:scripting/monoscript/fileName/CharacterBase.cs: 2c00e40961ce33e12e9d7b6d8acb9f9c -> 12f30c4f7c6aca94c1ffbf8cb3c2de30
-  custom:scripting/monoscript/fileName/CCDIK.cs: e7ca9ef17b98236681b154e142f03a00 -> 8f562f2cad8caa3ef18d96eab14f9eaa
-  custom:scripting/monoscript/fileName/Inspector.cs: f750dd810574c07161fb310733280e65 -> 25c5a687185d90106ed09a5bab8aea5a
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.351 seconds
+Domain Reload Profiling: 1812ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8355.
+Memory consumption went from 334.0 MB to 329.3 MB.
+Total: 6.487700 ms (FindLiveObjects: 0.810400 ms CreateObjectMapping: 0.216600 ms MarkObjects: 3.719900 ms  DeleteObjects: 1.739700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (4.8 MB). Loaded Objects now: 8371.
+Memory consumption went from 334.3 MB to 329.6 MB.
+Total: 6.470700 ms (FindLiveObjects: 0.827900 ms CreateObjectMapping: 0.216900 ms MarkObjects: 3.628900 ms  DeleteObjects: 1.795700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 277968.513365 seconds.
-  path: Assets/Stadium_TS/Animation
-  artifactKey: Guid(64ce2e3274497cb44a47e8f590fb743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Animation using Guid(64ce2e3274497cb44a47e8f590fb743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70bf2f616c3b49770dafc0b6bf0e17a') in 0.001817 seconds
+  Time since last request: 3921.138908 seconds.
+  path: Assets/Stadium_TS/Meshes/Ball.fbx
+  artifactKey: Guid(5b227ff5a3cc09446ab6cff482384c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stadium_TS/Meshes/Ball.fbx using Guid(5b227ff5a3cc09446ab6cff482384c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.311 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.928 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.930 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.931 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.917 ms.
+ -> (artifact id: '28e8de5d252ed23345f2d1ec801070d8') in 1.718560 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 106
 ========================================================================
 Received Import Request.
-  Time since last request: 340.147421 seconds.
-  path: Assets/Stadium_TS/Animation/Camera Path v2.fbx
-  artifactKey: Guid(c4c9b1bb041e7fe48b25ae02220c58af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Animation/Camera Path v2.fbx using Guid(c4c9b1bb041e7fe48b25ae02220c58af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.251 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 0.911 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 0.949 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 0.903 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 0.950 ms.
- -> (artifact id: '983cd28275f9b5bd9357cab8feebd7c8') in 1.786336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 1430.771199 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/EnglandKit_Shirt_Basecolour.jpg
-  artifactKey: Guid(613e9de058caa8743bb82787e21b4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/EnglandKit_Shirt_Basecolour.jpg using Guid(613e9de058caa8743bb82787e21b4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d97a9a3d24f2ffc5717b4a467cdf2f') in 0.024413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.749759 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/EnglandKit_Shirt_Basecolour.jpg
-  artifactKey: Guid(613e9de058caa8743bb82787e21b4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/EnglandKit_Shirt_Basecolour.jpg using Guid(613e9de058caa8743bb82787e21b4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b079faba03238771739e2139379caf9') in 0.015489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 150.622800 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/England_Shirt_Basecolour.png
-  artifactKey: Guid(55d99f9a933d9264eb75d1feb6bc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/England_Shirt_Basecolour.png using Guid(55d99f9a933d9264eb75d1feb6bc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ab45a8fabf07680be54c3a015d4f2d') in 0.143916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 16.784292 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/Ch38_1001_Specular.png
-  artifactKey: Guid(8a82cb1aecefb7646999b87f517610b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/Ch38_1001_Specular.png using Guid(8a82cb1aecefb7646999b87f517610b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1025b2087fa15bd81737389eba59b5') in 0.003796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.451777 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/England_Shirt_Basecolour.png
-  artifactKey: Guid(55d99f9a933d9264eb75d1feb6bc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/England_Shirt_Basecolour.png using Guid(55d99f9a933d9264eb75d1feb6bc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68364b8084a98ad6696976887b8eb1c') in 0.021778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.722353 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/SpainKitShirt_Basecolour.jpg
-  artifactKey: Guid(76b5450faa625264f8575856265de935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/SpainKitShirt_Basecolour.jpg using Guid(76b5450faa625264f8575856265de935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4d98593c2d0d52fa06baae3edfedb3') in 0.067452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.377890 seconds.
-  path: Assets/Trickshot/DataParser/Models/Avatars/Textures/SpainKitShirt_Basecolour.jpg
-  artifactKey: Guid(76b5450faa625264f8575856265de935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Avatars/Textures/SpainKitShirt_Basecolour.jpg using Guid(76b5450faa625264f8575856265de935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ca5dd9259a6e926fa491cc7198dc9') in 0.021802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 103.372404 seconds.
-  path: Assets/Trickshot/DataParser/Models
-  artifactKey: Guid(f49689681b2d24936aac978f49459c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models using Guid(f49689681b2d24936aac978f49459c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1982931738defef14d874c70145f0341') in 0.003033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.161676 seconds.
-  path: Assets/Trickshot/DataParser/Models/Ball
-  artifactKey: Guid(17a320f414dae7e4bac6726fd30c95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Ball using Guid(17a320f414dae7e4bac6726fd30c95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc62c826e4ca683679ba784bfbbaa74') in 0.000645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.843535 seconds.
+  Time since last request: 282.933511 seconds.
   path: Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx
   artifactKey: Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx using Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e9480760b579c5c9ed580cf19755e3') in 0.263447 seconds
+Start importing Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx using Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb302ff44795b85a9bed627848b48b66') in 0.065712 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 109.978903 seconds.
-  path: Assets/Stadium_TS/Texture/TX_PitchMarks_OPC.PNG
-  artifactKey: Guid(fb75354c0d780b845b01c8689e075549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Texture/TX_PitchMarks_OPC.PNG using Guid(fb75354c0d780b845b01c8689e075549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.341 ms.
- -> (artifact id: '4cea48dbd5a3ab5d498e72db3c52d865') in 0.115959 seconds
+  Time since last request: 3.251424 seconds.
+  path: Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx
+  artifactKey: Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx using Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87b2d3d331147058c944a04bf476ddb') in 0.038357 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 8.690743 seconds.
-  path: Assets/Stadium_TS/Texture/TX_PitchMarks_OPC.PNG
-  artifactKey: Guid(fb75354c0d780b845b01c8689e075549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadium_TS/Texture/TX_PitchMarks_OPC.PNG using Guid(fb75354c0d780b845b01c8689e075549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.759 ms.
- -> (artifact id: 'bdca7466823f505c95ac82e6e8449687') in 0.035464 seconds
+  Time since last request: 90.340416 seconds.
+  path: Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx
+  artifactKey: Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trickshot/DataParser/Models/Ball/animation_MocapBall_026.fbx using Guid(1b831fc6db4f01d47901f08bb83d3e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dc946f8da53a96cdbaff8cd86e32b4') in 0.029412 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
+Number of asset objects unloaded after import = 10
