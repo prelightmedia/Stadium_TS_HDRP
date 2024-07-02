@@ -176,7 +176,7 @@ MonoBehaviour:
     m_Value: 2
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.5
   maximumVelocity:
     m_OverrideState: 0
     m_Value: 200
@@ -348,7 +348,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 44.1
+    m_Value: 40
 --- !u!114 &-2223948172287066284
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -370,10 +370,10 @@ MonoBehaviour:
     m_Value: 1.6
   intensity:
     m_OverrideState: 1
-    m_Value: 0.545
+    m_Value: 0.508
   scatter:
     m_OverrideState: 1
-    m_Value: 0.429
+    m_Value: 0.586
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
